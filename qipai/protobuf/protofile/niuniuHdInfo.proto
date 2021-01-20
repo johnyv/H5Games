@@ -1,0 +1,124 @@
+syntax = "proto3";
+
+package com.protobuff.data;
+
+//牌集合模块
+message HdNiuNiuCardModule{
+	//值(1-13)
+	repeated int32 cards = 1;
+}
+//房间角色对象
+message HdNiuNiuRoleRoomModule{
+	//角色id
+	int32 roleId = 1;
+	//角色名称
+	string nickName = 2;
+	//头像
+	string imgurl = 3;
+	//当前金币数量
+	int32 copper = 4;
+	//准备状态(主要是第二局时候准备阶段用的)(0.未准备;1.准备)
+	int32 status = 6;
+	//本局得到或者失去的金币(结算的时候才用)(正是赢的，负是输的)
+	int32 changeCopper = 7;
+	//结算时候状态(0.正常;1.达到上限;2.破产)
+	int32 settleStatus = 8;
+}
+//请求匹配(5001)
+message HdNiuNiuRequestMatchModule{
+	//比赛类型(1.暂定目前为1)
+	int32 type = 1;
+}
+//匹配结果(5002)
+message HdNiuNiuRequestMatchResultModule{
+	//比赛类型(1.暂定目前为1)
+	int32 type = 1;
+	//结果(1.成功进入匹配队列)
+	int32 result = 2;
+}
+//退出(只有在匹配阶段和准备阶段可以离开)(准备阶段其实是第一局结算后，自动进入第二局的准备阶段)(5003)
+message HdNiuNiuQuitModule{
+}
+//成功退出(5004)
+message HdNiuNiuQuitResultModule{
+}
+//匹配进入房间(5006)
+message HdNiuNiuEnterRoomModule{
+	//倒计时(单位:s)
+	int32 waittime = 1;
+	//当前庄家角色id
+	int32 landId = 2;
+	//当前庄家底注
+	int32 landCrit = 3;
+	//当前备选庄家列表
+	repeated int32 landList = 4;
+	//房间内人物列表
+	repeated HdNiuNiuRoleRoomModule roleList = 5;
+}
+//有人状态发生变化(5008)(进入或者离开或者准备)
+message HdNiuNiuRoleChangeModule{
+	//0.离开;1.进来;2.准备
+	int32 type = 1;
+	//人物
+	HdNiuNiuRoleRoomModule role = 2;
+}
+//广播当前庄家(5010)
+message HdLandModule{
+	//当前庄家角色id
+	int32 landId = 1;
+	//当前庄家底注
+	int32 landCrit = 2;
+}
+//申请上庄(5011)
+message HdAddLandModule{
+	//底注
+	int32 crit = 1;
+}
+//广播当前备选庄家列表(5012)
+message HdLandListModule{
+	//当前备选庄家列表
+	repeated int32 landList = 1;
+}
+//广播询问下注(5014)
+message HdNiuNiuAddCritModule{
+	//剩余倒计时(单位:s)
+	int32 waitTime = 1;
+}
+//角色选择下注(5015)
+message HdNiuNiuDoAddCritModule{
+	//区块(1-4)
+	int32 index = 1;
+	//下的倍数
+	int32 crit = 2;
+}
+//广播一个角色下注(5016)
+message HdNiuNiuRoleAddCritModule{
+	//角色id
+	int32 roleId = 1;
+	//区块(1-4)
+	int32 index = 2;
+	//下注数
+	int32 crit = 3;
+}
+//当前玩家倍数(5018)
+message HdNiuNiuRoomCritModule{
+	//当前角色id
+	int32 roleId = 1;
+	//key:1-4;value:下注数
+	map<int32,int32> crit = 2;
+}
+//广播结算(5020)
+message HdNiuNiuSettlementModule{
+	//牌(key:0.是庄家;1-4分别四个闲家)
+	map<int32,HdNiuNiuCardModule> cardMap = 1;
+	//牌型(key:0.是庄家;1-4分别四个闲家)
+	map<int32,int32> cardType = 2;
+	//结算面板
+	repeated HdNiuNiuRoleRoomModule roleList = 3;
+}
+//下一局是否继续开始
+//准备(5021)
+message HdNiuNiuRolePrepareModule{
+	//0.不开始;1.开始
+	int32 status = 1;
+}

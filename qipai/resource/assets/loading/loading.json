@@ -1,0 +1,8 @@
+{"file":"loading.png","frames":{
+"zhanghao_btn":{"x":1383,"y":1220,"w":393,"h":132,"offX":24,"offY":7,"sourceW":445,"sourceH":181},
+"youke_btn":{"x":1383,"y":1083,"w":396,"h":135,"offX":24,"offY":7,"sourceW":445,"sourceH":187},
+"weixin_btn":{"x":988,"y":1083,"w":393,"h":137,"offX":24,"offY":8,"sourceW":444,"sourceH":190},
+"progress_bg":{"x":1,"y":1083,"w":985,"h":75,"offX":0,"offY":0,"sourceW":985,"sourceH":75},
+"progress_bar":{"x":1,"y":1160,"w":851,"h":61,"offX":0,"offY":0,"sourceW":851,"sourceH":61},
+"logo":{"x":1781,"y":1083,"w":147,"h":147,"offX":0,"offY":0,"sourceW":147,"sourceH":147},
+"load_bg":{"x":1,"y":1,"w":1920,"h":1080,"offX":0,"offY":0,"sourceW":1920,"sourceH":1080}}}

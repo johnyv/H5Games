@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="hall" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="175b007bcca" locked="true"/>
+	<e:Image x="0" y="0" source="hall_BG_jpg" locked="true"/>
+	<e:Group x="170" y="537" locked="true">
+		<e:Image x="0" y="168" source="root_hall_json.hall_fuchuang"/>
+		<e:Label text="全民推广，月入百万，点击 立即参与！" x="46.35" y="202.64" textAlign="center" anchorOffsetY="0" height="93.99" anchorOffsetX="0" width="399" size="38" fontFamily="Microsoft JhengHei"/>
+		<e:Image x="261.99" y="315" source="root_hall_json.hall_fuchuang_0"/>
+		<e:Image x="211.02" y="315" source="root_hall_json.hall_fuchuang_1"/>
+	</e:Group>
+	<e:Image x="245" y="148" source="hall_Roles_png" locked="true"/>
+	<e:Image x="11" y="14" source="root_hall_json.Avatar"/>
+	<e:Button label="" x="1548" y="938">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.hall_shop" source.down="root_hall_json.hall_shop"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="136" y="534" anchorOffsetX="85" anchorOffsetY="85">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.but_All_1" source.disabled="root_hall_json.but_All_0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="95.34" y="352.72" anchorOffsetX="85" anchorOffsetY="85">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.but_Fight_0" source.disabled="root_hall_json.but_Fight_0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="-39" y="213.99" anchorOffsetX="85" anchorOffsetY="85">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.but_Multi_0" source.disabled="root_hall_json.but_Multi_0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="-39" y="853.33" anchorOffsetX="85" anchorOffsetY="85">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.but_Multi_0" source.disabled="root_hall_json.but_Multi_0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="95.34" y="715.28" anchorOffsetX="85" anchorOffsetY="85">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.but_Multi_0" source.disabled="root_hall_json.but_Multi_0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="76" y="948">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.bottom_xiaoxi" source.down="root_hall_json.bottom_xiaoxi"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="359" y="948">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.bottom_paihang" source.down="root_hall_json.bottom_paihang"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="919" y="948">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.bottom_kefu" source.down="root_hall_json.bottom_kefu"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="1706" y="9">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.hall_VIP" source.down="root_hall_json.hall_VIP"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="1306" y="9">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.top_gonggao" source.down="root_hall_json.top_gonggao"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="1022" y="9">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.top_huodong" source.down="root_hall_json.top_huodong"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="642" y="948">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.bottom_tixian" source.down="root_hall_json.bottom_tixian"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="552" y="18">
+		<e:Image x="6" y="3" source="root_hall_json.hall_heidi"/>
+		<e:Image x="0" y="0" source="root_hall_json.hall_Glod"/>
+		<e:Button label="" x="336" y="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_hall_json.But_add" source.down="root_hall_json.But_add"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="gold_txt" text="17885.10" x="161.67" y="19.33" size="38" textColor="0xffff00" textAlign="right"/>
+	</e:Group>
+	<e:Label text="阿库" x="163" y="24" size="38" textAlign="left" textColor="0xffffff" fontFamily="Microsoft YaHei"/>
+	<e:Label text="ID：215755" x="164" y="84" size="38" textColor="0xFFFFFF" textAlign="left"/>
+	<e:Button id="bairen_niuniu_btn" label="" x="1102" y="111">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.Game_BRNN" source.down="root_hall_json.Game_BRNN"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="1275" y="667">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.But_Dow" source.down="root_hall_json.But_Dow"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="niuniu_btn" label="" x="669" y="111">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.Game_QZNN" source.down="root_hall_json.Game_QZNN"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="ddz_btn" label="" x="1102" y="496">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.Game_HKDDZ" source.down="root_hall_json.Game_HKDDZ"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="1280" y="269" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.But_Dow" source.down="root_hall_json.But_Dow"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="1280" y="667" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.But_Dow" source.down="root_hall_json.But_Dow"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="buyu_btn" label="" x="669" y="496">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.Game_BYDR" source.down="root_hall_json.Game_BYDR"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="842" y="669" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.But_Dow" source.down="root_hall_json.But_Dow"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="" x="842" y="269" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_hall_json.But_Dow" source.down="root_hall_json.But_Dow"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

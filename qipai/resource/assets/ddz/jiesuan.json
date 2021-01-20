@@ -1,0 +1,12 @@
+{"file":"jiesuan.png","frames":{
+"继续游戏":{"x":1240,"y":683,"w":311,"h":118,"offX":0,"offY":0,"sourceW":311,"sourceH":118},
+"返回大厅":{"x":1563,"y":671,"w":338,"h":117,"offX":0,"offY":0,"sourceW":338,"sourceH":117},
+"地主":{"x":1998,"y":1,"w":46,"h":49,"offX":0,"offY":0,"sourceW":47,"sourceH":49},
+"倍数":{"x":1879,"y":65,"w":117,"h":61,"offX":0,"offY":0,"sourceW":117,"sourceH":61},
+"dialog_bg_small":{"x":1,"y":1,"w":1237,"h":917,"offX":0,"offY":0,"sourceW":1237,"sourceH":917},
+"jiesuandi":{"x":1,"y":1814,"w":1014,"h":54,"offX":1,"offY":0,"sourceW":1015,"sourceH":55},
+"losedikuang":{"x":1,"y":920,"w":1237,"h":892,"offX":0,"offY":0,"sourceW":1237,"sourceH":892},
+"金币":{"x":1879,"y":128,"w":112,"h":62,"offX":0,"offY":0,"sourceW":112,"sourceH":62},
+"玩家":{"x":1879,"y":1,"w":117,"h":62,"offX":0,"offY":0,"sourceW":117,"sourceH":62},
+"dizhushu":{"x":1240,"y":1,"w":321,"h":680,"offX":0,"offY":0,"sourceW":321,"sourceH":680},
+"dizhuying":{"x":1563,"y":1,"w":314,"h":668,"offX":0,"offY":0,"sourceW":314,"sourceH":668}}}

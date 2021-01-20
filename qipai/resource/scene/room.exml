@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1334" height="750" xmlns:e="http://ns.egret.com/eui">
+	<e:Group width="1080" height="470" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="1080" height="470" anchorOffsetX="0" anchorOffsetY="0" source="room_bg_png" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:ToggleButton label="ToggleButton" x="829" y="119" anchorOffsetX="0" width="220" anchorOffsetY="0" height="80" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source.down="creat_room_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton label="ToggleButton" x="829" y="277" anchorOffsetX="0" width="220" anchorOffsetY="0" height="80" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source.down="join_room_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:Label text="设置底分" x="343" y="60" textColor="0x722d00" scaleX="1" scaleY="1"/>
+		<e:Button id="close_btn" label="" x="740.82" y="40.52" anchorOffsetY="0" height="36" anchorOffsetX="0" width="36">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Rect width="600" height="70" x="105" y="130" anchorOffsetX="0" anchorOffsetY="0" ellipseHeight="8" ellipseWidth="8" fillColor="0xffffff"/>
+		<e:Label id="cash_txt" text="100000000" scaleX="1" scaleY="1" size="30" horizontalCenter="-135" anchorOffsetX="0" width="600" maxChars="9" anchorOffsetY="0" height="70" verticalAlign="middle" border="false" borderColor="0xFFFFFF" textAlign="center" x="104.99999999999999" y="130" backgroundColor="0xffffff" background="false" textColor="0xcecece"/>
+		<e:Label id="cash_txt0" text="低分设置越高，对好友进场的EKT余额要求越多" scaleX="1" scaleY="1" size="24" anchorOffsetX="0" width="600" maxChars="9" anchorOffsetY="0" height="70" verticalAlign="middle" border="false" borderColor="0xFFFFFF" textAlign="center" x="105" y="207" backgroundColor="0xFFFFFF" background="false" textColor="0xd67620" bold="true"/>
+		<e:Group width="180" height="60" x="313" y="317" scaleX="1" scaleY="1">
+			<e:Rect width="180" height="60" x="0" y="0" ellipseHeight="8" ellipseWidth="8" fillColor="0xcecece"/>
+			<e:Label text="创建房间" x="0" y="0" width="180" height="60" verticalAlign="middle" textAlign="center"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

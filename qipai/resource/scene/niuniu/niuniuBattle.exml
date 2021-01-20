@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="niuniuBattle" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image x="0" y="-4" scaleY="1" source="BG_jpg"/>
+	<e:Image id="return_btn" x="18" y="10" source="niuniukaiju_json.but_Unfold"/>
+	<e:Group id="player_group_0" y="781.3" horizontalCenter="0" anchorOffsetX="239.39" anchorOffsetY="30.3" visible="false">
+		<e:Button label="" x="794" y="0" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="niuniukaiju_json.but_Have" source.down="niuniukaiju_json.but_Have"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="794" y="106" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="niuniukaiju_json.but_Not" source.down="niuniukaiju_json.but_Not"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="794" y="210" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="niuniukaiju_json.but_Swap" source.down="niuniukaiju_json.but_Swap"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image id="card_0" x="222" y="23" source="niuniu_card_json.101" visible="false"/>
+		<e:Image id="card_1" x="319" y="23" source="niuniu_card_json.dianmond_king" visible="false"/>
+		<e:Image id="card_2" x="417" y="23" source="niuniu_card_json.spade_queen" visible="false"/>
+		<e:Image id="card_3" x="514" y="23" source="niuniu_card_json.dianmond_queen" visible="false"/>
+		<e:Image id="card_4" x="611" y="23" source="niuniu_card_json.black_Joker" visible="false"/>
+		<ns1:Zhuangjia width="220" height="316" x="0" y="13" anchorOffsetX="0" anchorOffsetY="0" name="zhuangJia"/>
+		<e:Image x="64" y="125" scaleX="0.6" scaleY="0.6" source="niuniukaiju_json.nn_ready_1" name="tip_state" visible="false"/>
+		<e:Image x="412.45" y="-115.11" source="niuniukaiju_json.nn_n00" name="result_state" visible="false"/>
+		<e:Image x="210" y="-7" scaleX="0.7" scaleY="0.7" anchorOffsetY="0" source="niuniukaiju_json.x_25x" name="beishu_state" visible="false"/>
+	</e:Group>
+	<e:Group id="qz_btn_group" x="0" y="843" visible="false">
+		<e:Image source="niuniukaiju_json.BB" x="0" y="0" width="1920"/>
+		<e:Button id="no_btn" label="" x="283" y="103" name="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniukaiju_json.but_x_0x" source.down="niuniukaiju_json.but_x_0x"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="score1_btn" label="" x="563" y="103" name="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniukaiju_json.but_x_1x" source.down="niuniukaiju_json.but_x_1x"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="score2_btn" label="" x="843" y="103" name="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniukaiju_json.but_x_2x" source.down="niuniukaiju_json.but_x_2x"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="score3_btn" label="" x="1122" y="103" name="3">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniukaiju_json.but_x_3x" source.down="niuniukaiju_json.but_x_3x"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="score4_btn" label="" x="1402" y="103" name="4">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniukaiju_json.but_x_4x" source.down="niuniukaiju_json.but_x_4x"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="xiazhu_btn_group" x="0" y="843" visible="false">
+		<e:Image source="niuniukaiju_json.BB" x="0" y="0" width="1920"/>
+		<e:Button id="score5_btn" label="" x="283" y="103" name="5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniukaiju_json.but_x_5x" source.down="niuniukaiju_json.but_x_5x"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="score10_btn" label="" x="563" y="103" name="10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniukaiju_json.but_x_10x" source.down="niuniukaiju_json.but_x_10x"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="score15_btn" label="" x="843" y="103" name="15">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniukaiju_json.but_x_15x" source.down="niuniukaiju_json.but_x_15x"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="score20_btn" label="" x="1122" y="103" name="20">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniukaiju_json.but_x_20x" source.down="niuniukaiju_json.but_x_20x"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="score25_btn" label="" x="1402" y="103" name="25">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniukaiju_json.but_x_25x" source.down="niuniukaiju_json.but_x_25x"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group x="641" y="610" visible="false">
+		<e:Image x="0" y="0" source="niuniukaiju_json.txt_cc"/>
+		<e:Label text="请下注：12" x="210" y="37" textAlign="center" size="42" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Label id="result_txt" text="5+12+1+6=牛牛" x="778" y="712" size="46" fontFamily="Microsoft YaHei" textColor="0xffff00" textAlign="center" visible="false"/>
+	<e:Label id="currentTime_txt" text="倒计时：04秒" y="370.48" size="46" fontFamily="Microsoft YaHei" textColor="0xFFFF00" textAlign="center" horizontalCenter="0" visible="false"/>
+	<e:Group id="player_group_1" x="318.89" y="152" anchorOffsetX="300" anchorOffsetY="0" visible="false">
+		<ns1:Zhuangjia width="220" height="316" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" name="zhuangJia"/>
+		<ns1:CardGroup width="469" height="223" x="229" y="31" scaleX="0.75" scaleY="0.75" name="cardGroup" visible="false"/>
+		<e:Image x="393.18" y="62.06" source="niuniukaiju_json.nn_n09" name="result_state" visible="false"/>
+		<e:Image x="64" y="114" scaleX="0.6" scaleY="0.6" source="niuniukaiju_json.nn_ready_1" name="tip_state" visible="false"/>
+		<e:Image source="niuniukaiju_json.x_10x" x="210" y="-7" scaleX="0.7" scaleY="0.7" anchorOffsetY="0" name="beishu_state" visible="false"/>
+	</e:Group>
+	<e:Group id="player_group_2" x="1551.4" y="152" anchorOffsetX="339.4" anchorOffsetY="0" visible="false">
+		<ns1:Zhuangjia width="220" height="316" x="456" y="0" anchorOffsetX="0" anchorOffsetY="0" name="zhuangJia"/>
+		<ns1:CardGroup width="469" height="223" x="100" y="31" scaleX="0.75" scaleY="0.75" name="cardGroup" visible="false"/>
+		<e:Image x="0" y="56" source="niuniukaiju_json.nn_n03" name="result_state" visible="false"/>
+		<e:Image source="niuniukaiju_json.nn_ready_0" x="443" y="114" scaleX="0.6" scaleY="0.6" name="tip_state" visible="false"/>
+		<e:Image x="300" y="-7" scaleX="0.7" scaleY="0.7" anchorOffsetY="0" source="niuniukaiju_json.x_0x" name="beishu_state" visible="false"/>
+	</e:Group>
+	<e:Group id="player_group_3" y="119.59" horizontalCenter="0" anchorOffsetX="381.82" anchorOffsetY="109.09" visible="false">
+		<ns1:Zhuangjia width="220" height="316" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" name="zhuangJia"/>
+		<ns1:CardGroup width="469" height="223" x="232" y="22" scaleX="0.75" scaleY="0.75" name="cardGroup" visible="false"/>
+		<e:Image x="208.51" y="141" source="niuniukaiju_json.nn_mn" name="result_state" visible="false"/>
+		<e:Image source="niuniukaiju_json.x_10x" x="210" y="-7" scaleX="0.7" scaleY="0.7" anchorOffsetY="0" name="beishu_state" visible="false"/>
+		<e:Image x="64" y="114" scaleX="0.6" scaleY="0.6" source="niuniukaiju_json.nn_ready_1" name="tip_state" visible="false"/>
+	</e:Group>
+	<e:Group id="player_group_4" x="388.59" y="632.12" anchorOffsetX="378.79" anchorOffsetY="112.12" visible="false">
+		<ns1:Zhuangjia width="220" height="316" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" name="zhuangJia"/>
+		<ns1:CardGroup width="469" height="223" x="229" y="25" scaleX="0.75" scaleY="0.75" name="cardGroup" visible="false"/>
+		<e:Image x="396.22" y="39" source="niuniukaiju_json.nn_n04" name="result_state" visible="false"/>
+		<e:Image source="niuniukaiju_json.nn_ready_0" x="64" y="114" scaleX="0.6" scaleY="0.6" name="tip_state" visible="false"/>
+		<e:Image x="210" y="-7" scaleX="0.7" scaleY="0.7" anchorOffsetY="0" source="niuniukaiju_json.x_0x" visible="false"/>
+	</e:Group>
+	<e:Group id="player_group_5" x="1460.14" y="629.09" anchorOffsetX="245.46" anchorOffsetY="109.09" visible="false">
+		<ns1:Zhuangjia width="220" height="316" x="456" y="0" anchorOffsetX="0" anchorOffsetY="0" name="zhuangJia"/>
+		<ns1:CardGroup width="469" height="223" x="100" y="25" scaleX="0.75" scaleY="0.75" name="cardGroup" visible="false"/>
+		<e:Image x="9.09" y="39" source="niuniukaiju_json.nn_n07" name="result_state" visible="false"/>
+		<e:Image source="niuniukaiju_json.nn_ready_0" x="443" y="114" scaleX="0.6" scaleY="0.6" name="tip_state" visible="false"/>
+		<e:Image source="niuniukaiju_json.x_10x" x="300" y="-7" scaleX="0.7" scaleY="0.7" name="beishu_state" visible="false"/>
+	</e:Group>
+</e:Skin>

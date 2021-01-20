@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="zhuangjia" width="220" height="316" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="player_1" x="0" y="0">
+		<e:Image id="di0" source="niuniukaiju_json.Players" x="0" y="2"/>
+		<e:Image x="5" y="7" source="niuniukaiju_json.Avatar_QZNN"/>
+		<e:Label text="游客123456" x="24" y="203" anchorOffsetX="0" width="173" anchorOffsetY="0" height="36" textAlign="center" verticalAlign="middle" size="30" fontFamily="Microsoft YaHei" textColor="0xffe9c4"/>
+		<e:Label text="1.25万" x="91" y="249" anchorOffsetX="0" width="101" anchorOffsetY="0" height="28.09" textAlign="right" verticalAlign="middle" size="30" fontFamily="Microsoft YaHei" textColor="0xffff00"/>
+		<e:Image source="niuniukaiju_json.gold" x="26" y="250"/>
+		<e:Image x="23" y="21" source="niuniukaiju_json.Avatar_QZNN_1"/>
+		<e:Image x="7" y="5" source="niuniukaiju_json.banker_1" visible="false"/>
+		<e:Image id="zhuangJia_logo" source="niuniukaiju_json.banker" x="0" y="0" visible="false"/>
+	</e:Group>
+</e:Skin>

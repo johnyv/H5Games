@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="rankHeadGroup" width="175" height="259" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="BRNN_Battle_json.BRNN_Avatar" y="55" horizontalCenter="0"/>
+	<e:Image id="headImage" source="BRNN_Battle_json.BRNN_Avatar_0" y="68" width="150" height="150" horizontalCenter="0"/>
+	<e:Image source="BRNN_Battle_json.BRNN_player_data" y="195" horizontalCenter="0"/>
+	<e:Image source="BRNN_Battle_json.BRNN_gold" x="10" y="224"/>
+	<e:Label id="nickName_txt" text="鸭王来了" y="197" size="28" horizontalCenter="0"/>
+	<e:Label id="goldNum_txt" text="195440" x="47" y="227" size="28" textColor="0xFFFF00"/>
+	<e:Image id="chenghaoLogo" source="BRNN_Battle_json.BRNN_DFW" y="0" horizontalCenter="0" visible="false"/>
+	<e:Image id="guibinLogo" source="BRNN_Battle_json.BRNN_GB" y="155.12" horizontalCenter="0"/>
+</e:Skin>

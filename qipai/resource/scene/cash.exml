@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect height="750" width="1227" fillAlpha="0" strokeAlpha="0" strokeColor="0x000000" y="0" fillColor="0x000000" anchorOffsetX="0" x="120"/>
+	<e:Group width="1100" height="570" horizontalCenter="0" y="112">
+		<e:Image width="1100" height="570" horizontalCenter="0" verticalCenter="0" x="19" y="-34" scaleX="1" scaleY="1" source="recharge_bg_png"/>
+		<e:Button label="" x="1027" y="62" scaleX="1" scaleY="1" width="36" height="36">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+		<e:Label text="提取后，立刻到账" y="273" scaleX="1" scaleY="1" size="26" textColor="0xffffff" x="744.88"/>
+		<e:Label id="tip_txt" text="最多可提现EKT  1600.2314" y="272" scaleX="1" scaleY="1" size="28" width="560" x="178" textColor="0xffffff"/>
+		<e:Image width="40" height="40" x="130" y="266" source="left_ekt_png"/>
+		<e:Group width="880" height="90" y="149.18" horizontalCenter="0">
+			<e:Rect width="880" height="90" x="0" y="0" fillColor="0x081746" strokeColor="0xffffff" strokeWeight="2" ellipseHeight="10" ellipseWidth="10"/>
+			<e:Label text="提现金额" scaleX="1" scaleY="1" size="36" horizontalCenter="-350" verticalCenter="0" textColor="0x00c6ff"/>
+
+
+			<e:Button id="half_btn" label="" x="583.27" y="15">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="half_btn_b_png" source.down="half_btn_y_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="twice_btn" label="" x="681.64" y="15">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="twice_btn_b_png" source.down="twice_btn_y_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="max_btn" label="" x="778.88" y="15">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="max_btn_b_png" source.down="max_btn_y_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+		</e:Group>
+		<e:Group id="key_board" width="880" height="88" y="317" horizontalCenter="2" anchorOffsetY="0" x="112" scaleX="1" scaleY="1" visible="false">
+
+			<e:Label id="num_10" text="1" x="0" y="0" width="88" height="88" verticalAlign="middle" textAlign="center" background="true" backgroundColor="0x081746" border="true" borderColor="0xFFFFFF" name="1"/>
+			<e:Label text="2" x="88" y="0" width="88" height="88" verticalAlign="middle" textAlign="center" background="true" backgroundColor="0x081746" border="true" borderColor="0xFFFFFF" id="num_0" name="2"/>
+			<e:Label text="3" x="176" y="0" width="88" height="88" verticalAlign="middle" textAlign="center" background="true" backgroundColor="0x081746" border="true" borderColor="0xFFFFFF" id="num_1" name="3"/>
+			<e:Label text="4" x="264" y="0" width="88" height="88" verticalAlign="middle" textAlign="center" background="true" backgroundColor="0x081746" border="true" borderColor="0xFFFFFF" id="num_2" name="4"/>
+			<e:Label text="5" x="352" y="0" width="88" height="88" verticalAlign="middle" textAlign="center" background="true" backgroundColor="0x081746" border="true" borderColor="0xFFFFFF" id="num_3" name="5"/>
+			<e:Label text="6" x="440" y="0" width="88" height="88" verticalAlign="middle" textAlign="center" background="true" backgroundColor="0x081746" border="true" borderColor="0xFFFFFF" id="num_4" name="6"/>
+			<e:Label text="7" x="528" y="0" width="88" height="88" verticalAlign="middle" textAlign="center" background="true" backgroundColor="0x081746" border="true" borderColor="0xFFFFFF" id="num_5" name="7"/>
+			<e:Label text="8" x="616" y="0" width="88" height="88" verticalAlign="middle" textAlign="center" background="true" backgroundColor="0x081746" border="true" borderColor="0xFFFFFF" id="num_6" name="8"/>
+			<e:Label text="9" x="703" y="0" width="88" height="88" verticalAlign="middle" textAlign="center" background="true" backgroundColor="0x081746" border="true" borderColor="0xFFFFFF" id="num_7" name="9"/>
+			<e:Label id="num_9" text="0" x="791" y="0" width="88" height="88" verticalAlign="middle" textAlign="center" background="true" backgroundColor="0x081746" border="true" borderColor="0xFFFFFF" name="0"/>
+		</e:Group>
+		<e:Label id="cash_txt" text="100000000" scaleX="1" scaleY="1" size="44" horizontalCenter="-99" verticalCenter="-91.5" textColor="0xFFFFFF" anchorOffsetX="0" width="340" maxChars="9" anchorOffsetY="0" height="67" verticalAlign="middle" border="false" borderColor="0xFFFFFF" textAlign="left" x="293" y="161"/>
+		<e:Button id="reset_btn" label="" x="630" y="172">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="reset_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="cash_btn" label="" y="405" horizontalCenter="0" x="410" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="cash_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" height="56" width="240" y="57" scaleX="1" scaleY="1" horizontalCenter="0" source="cash_label_png" x="430"/>
+		<e:Button id="close_btn" label="" x="1017" y="11" anchorOffsetY="0" height="106" anchorOffsetX="0" width="94"/>
+	</e:Group>
+
+
+
+</e:Skin>

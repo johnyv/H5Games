@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.protobuff.data;
+option java_outer_classname = "MessageData";
+
+message PacketData{
+	//消息号
+	int32 packetType = 1;
+	//消息体
+	bytes data = 2;
+}

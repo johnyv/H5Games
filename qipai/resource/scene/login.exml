@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="loading" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="login_json.login_dark_bg" x="0" y="0"/>
+	<e:Image source="login_json.popup_window" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="login_json.login_icon" x="648" y="224"/>
+	<e:Label text="手机号：" x="460.58" y="361.28" anchorOffsetX="0" width="258" anchorOffsetY="0" height="58" size="46" fontFamily="SimSun" textAlign="right"/>
+	<e:Label text="验证码：" x="460.58" y="491.28" anchorOffsetX="0" width="258" anchorOffsetY="0" height="58" size="46" fontFamily="SimSun" textAlign="right"/>
+	<e:Image source="login_json.kuang_bg" x="718.58" y="334.78"/>
+	<e:Image source="login_json.kuang_bg" x="718.58" y="464.78"/>
+	<e:Image id="login_btn" source="login_json.login_btn" y="662.68" horizontalCenter="0"/>
+	<e:TextInput id="account" width="488" height="92" x="741.58" y="343.28" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:TextInput id="password" width="492" height="88" x="741.58" y="475.28" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image source="login_json.huoqu_btn" x="1295.58" y="472.28"/>
+</e:Skin>

@@ -1,0 +1,55 @@
+syntax = "proto3";
+
+package com.protobuff.data;
+
+// 前端请求登录(1001)
+message LoginModule{
+		// 账户
+		string openId = 1;
+		// 渠道
+		string channelId = 2;
+		// 昵称
+		string nickname = 3;
+		// 头像url
+		string imgurl = 4;
+		// 性别(0.女 1.男)
+		int32 sex = 5;
+		// 设备唯一标识
+		string device = 8;
+}
+// 服务器返回登录结果(1002)
+message LoginResultModule{
+	//登录结果(0.异常 1.成功)
+	int32 loginResult = 1;
+	//登录描述
+	string loginDesc = 2;
+}
+//角色登录成功后，返回的角色基本信息(1004)
+message RoleInfoModule{
+	//角色id
+	int32 roleId = 1;
+	//角色昵称
+	string nickName = 2;
+	//头像url
+	string imgurl = 3;
+	//角色等级
+	sfixed32 level = 4;
+	//断线重连参数
+	string reconnection = 5;
+	//用户真实年龄(默认-1，意思是未实名认证)
+	int32 age = 6;
+	//钻石数量
+	int32 gold = 7;
+	//金币数量
+	int32 copper = 8;
+}
+//断线重连(1005)
+message ReconnectionModule{
+	//断线重连参数
+	string reconnection = 1;
+}
+//断线重连结果(1006)
+message ReconnectionResult{
+	//(0.失败;1.成功)
+	int32 type = 1;
+}

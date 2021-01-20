@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<e:Skin class="battleStage" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Config id="168563b819c"/>
+	<e:Image x="0" y="0" source="kaiju_bg_png" locked="true"/>
+	<e:Image id="left_head_img" width="215" height="452" y="87" x="174" source="kaiju_json.man_head"/>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Image id="right_head_img" width="221" height="448" y="311" x="1628" source="kaiju_json.man_head" scaleX="-1" anchorOffsetX="110" anchorOffsetY="224"/>
+
+
+	<e:Image id="zhuozi" source="kaiju_json.New_桌子" bottom="0" horizontalCenter="0" locked="true"/>
+	<e:Group id="left_clock" x="386" y="258" visible="false">
+		<e:Image width="110" height="110" y="0" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" source="kaiju_json.New_闹钟"/>
+		<e:Label id="left_time_txt" text="" textColor="0xFF0000" size="40" textAlign="center" verticalAlign="middle" verticalCenter="4.5" horizontalCenter="0" width="110" bold="true"/>
+	</e:Group>
+	<e:Group id="right_clock" x="1429" y="242" width="110" visible="false">
+		<e:Image width="110" height="110" y="16.72" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" source="kaiju_json.New_闹钟"/>
+		<e:Label id="right_time_txt" text="" y="42.11" textColor="0xFF0000" size="40" verticalAlign="middle" width="110" textAlign="center" horizontalCenter="0" anchorOffsetY="0" height="66.6" bold="true"/>
+	</e:Group>
+	<e:Group id="my_clock" y="540" anchorOffsetX="0" width="110" horizontalCenter="-12" visible="false">
+		<e:Image width="110" height="110" y="6.08" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" source="kaiju_json.New_闹钟"/>
+		<e:Label id="my_time_txt" text="" y="32.9" textColor="0xff0000" size="40" width="73.64" horizontalCenter="-1" anchorOffsetY="0" height="63.79" textAlign="center" verticalAlign="middle" anchorOffsetX="0" bold="true"/>
+	</e:Group>
+	<e:Image id="my_head_img" width="215" height="452" y="547" horizontalCenter="-806.5" source="kaiju_json.man_head"/>
+
+	<e:Group id="btn_group" y="534.98" width="1329.92" anchorOffsetX="0" horizontalCenter="0">
+		<e:Button id="play_btn" label="" scaleX="1" scaleY="1" width="198" height="80" enabled="true" y="30" x="950" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="kaiju_json.New_btn_chupai"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="*"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="tip_btn" label="" scaleX="1" scaleY="1" width="198" height="80" enabled="true" y="30" x="710" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="kaiju_json.New_btn_tishi" source.disabled="play_btn_gray_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="*"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="pass_btn" label="" width="198" anchorOffsetX="0" anchorOffsetY="0" height="80" scaleX="1" scaleY="1" cacheAsBitmap="false" x="395.92" y="30" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="kaiju_json.New_要不起"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="*"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="score3_btn" label="" y="30" name="3" width="198" height="80" x="954" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="kaiju_json.New_btn_3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="*"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="score2_btn" label="" y="30" x="710.64" name="2" width="198" height="80" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="kaiju_json.New_btn_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="*"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="score1_btn" label="" y="30" x="393.48" name="1" width="198" height="80" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="kaiju_json.New_btn_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="*"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="no_btn" label="" name="0" width="198" height="80" x="152.42" y="30" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="kaiju_json.New_btn_bujiao"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="*"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="bujiabei_btn" source="kaiju_json.New_不加倍" x="720" y="32" name="bujiabei" visible="false"/>
+		<e:Image id="jiabei_btn" source="kaiju_json.New_加倍" x="969.12" y="32.06" name="jiabei" visible="false"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="left_num_box" x="402.9" y="383" width="69.34" height="95.52" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Image source="kaiju_json.New_牌背" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="left_num_txt" text="17" x="8" y="9" anchorOffsetY="0" height="88" anchorOffsetX="0" width="62" size="40" backgroundColor="0x1958a0" background="false" border="false" borderColor="0xffffff" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1"/>
+
+
+	</e:Group>
+	<e:Group id="right_num_box" x="1444.15" y="383" width="75.39" height="107.64" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Image source="kaiju_json.New_牌背" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="right_num_txt" text="17" x="8" y="9" anchorOffsetY="0" height="88" anchorOffsetX="0" width="62" size="40" backgroundColor="0x1958A0" background="false" border="false" borderColor="0xFFFFFF" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1"/>
+
+
+	</e:Group>
+
+
+
+
+	<e:Image id="left_pass" width="100" height="56" x="406.22" y="234" source="pass_png" visible="false"/>
+	<e:Image id="right_pass" width="100" height="56" x="1399.48" y="234" source="pass_png" visible="false"/>
+	<e:Image id="my_pass" width="100" height="56" y="617.71" source="pass_png" horizontalCenter="-634" visible="false"/>
+
+
+
+
+
+	<e:Group id="my_talk" width="340" height="63" x="30" y="455" anchorOffsetY="0" anchorOffsetX="0" visible="false">
+		<e:Image width="340" height="63" x="0" y="0" source="talk_box_left_png" scaleX="1" scaleY="1"/>
+		<e:Label id="my_talk_txt" text="快点啊！等到花都谢了！" x="20" y="3" anchorOffsetY="0" height="45" anchorOffsetX="0" width="314" textColor="0x040914" size="24" verticalAlign="middle" bold="true"/>
+	</e:Group>
+
+	<e:Group id="left_talk" width="340" height="63" x="114" y="78" visible="false">
+		<e:Image width="340" height="63" x="0" y="0" source="talk_box_left_png" scaleX="1" scaleY="1"/>
+		<e:Label id="left_talk_txt" text="快点啊！等到花都谢了！" x="20" y="3" anchorOffsetY="0" height="45" anchorOffsetX="0" width="314" textColor="0x040914" size="24" verticalAlign="middle" bold="true"/>
+	</e:Group>
+	<e:Group id="right_talk" width="340" height="63" x="877" y="78" visible="false">
+		<e:Image width="340" height="63" x="0" y="0" source="talk_box_right_png" scaleX="1" scaleY="1"/>
+		<e:Label id="right_talk_txt" text="快点啊！等到花都谢了！" x="20" y="3" anchorOffsetY="0" height="45" anchorOffsetX="0" width="314" textColor="0x040914" size="24" verticalAlign="middle" bold="true" fontFamily="Arial"/>
+	</e:Group>
+	<e:Rect id="talk_bg" width="400" height="465" x="900" y="194" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x162b64" fillAlpha="0.9" ellipseHeight="10" ellipseWidth="10" strokeAlpha="0.9" strokeColor="0x00b4ff" strokeWeight="2" visible="false"/>
+	<e:Scroller id="talk_scroller" width="400" height="450" x="900" y="201" anchorOffsetY="0" visible="false">
+		<e:Group id="talk_group" width="400" y="-4" x="0" anchorOffsetY="0" height="438">
+			<e:Label id="item_0" text="快点吧，等到花儿都谢了～" x="30" y="0" anchorOffsetY="0" height="90" anchorOffsetX="0" width="356" size="24" bold="true" textColor="0xffffff" textAlign="left" verticalAlign="middle" name="item_0"/>
+			<e:Label id="item_1" text="刚刚手抖了，不好意思哈！" x="30" y="90" anchorOffsetY="0" height="90" anchorOffsetX="0" width="362" size="24" bold="true" textColor="0xFFFFFF" textAlign="left" verticalAlign="middle" name="item_1"/>
+			<e:Label id="item_2" text="你的牌打得也太好了！" x="30" y="180" anchorOffsetY="0" height="90" anchorOffsetX="0" width="360" size="24" bold="true" textColor="0xFFFFFF" textAlign="left" verticalAlign="middle" name="item_2"/>
+			<e:Label id="item_3" text="这一手牌，有毒啊～～～" x="30" y="270" anchorOffsetY="0" height="90" anchorOffsetX="0" width="364" size="24" bold="true" textColor="0xFFFFFF" textAlign="left" verticalAlign="middle" name="item_3"/>
+			<e:Label id="item_4" text="和你合作真的是太愉快了" x="30" y="360" anchorOffsetY="0" height="90" anchorOffsetX="0" width="362" size="24" bold="true" textColor="0xFFFFFF" textAlign="left" verticalAlign="middle" name="item_4"/>
+			<e:Label id="item_5" text="不要走，我们决战到天亮" x="30" y="450" anchorOffsetY="0" height="90" anchorOffsetX="0" width="362" size="24" bold="true" textColor="0xFFFFFF" textAlign="left" verticalAlign="middle" name="item_5"/>
+			<e:Label id="item_6" text="再见了，我会再回来的！" x="30" y="540" anchorOffsetY="0" height="90" anchorOffsetX="0" width="354" size="24" bold="true" textColor="0xFFFFFF" textAlign="left" verticalAlign="middle" name="item_6"/>
+			<e:Label id="item_7" text="不好意思，我要离开一会儿" x="30" y="630" anchorOffsetY="0" height="90" anchorOffsetX="0" width="356" size="24" bold="true" textColor="0xFFFFFF" textAlign="left" verticalAlign="middle" name="item_7"/>
+		</e:Group>
+	</e:Scroller>
+	<e:CheckBox id="music_btn" label="" x="121.6" y="30.7" width="58" height="58" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="music_btn_open_png" source.down="music_btn_close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:CheckBox id="snd_btn" label="" x="38.84" y="30.7" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="sound_btn_open_png" source.down="sound_btn_close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+
+
+
+	<e:Group id="left_name_box" x="181.58" y="398.09">
+		<e:Image source="kaiju_json.New_圆角矩形 1" x="0" y="0"/>
+		<e:Label id="left_name_txt" text="?" x="22.76" y="5.58" textAlign="center" width="145.21" anchorOffsetY="0" height="28.97" size="30" verticalAlign="middle" anchorOffsetX="0"/>
+	</e:Group>
+	<e:Group id="right_name_box" x="1537.04" y="398.09">
+		<e:Image source="kaiju_json.New_圆角矩形 1" x="0" y="0"/>
+		<e:Label id="right_name_txt" text="?" x="22.76" y="3.58" textAlign="center" width="145.21" anchorOffsetY="0" height="32.97" size="30" verticalAlign="middle" anchorOffsetX="0"/>
+	</e:Group>
+	<e:Group id="my_name_box" x="274.32" y="862.62" visible="false">
+		<e:Image source="kaiju_json.New_圆角矩形 1" x="0" y="0"/>
+		<e:Label id="my_name_txt" text="游客2342123" x="22.76" y="5.58" textAlign="center" width="145.21" anchorOffsetY="0" height="40.97" size="30" verticalAlign="middle" anchorOffsetX="0"/>
+	</e:Group>
+	<e:Group id="top_box" x="618" y="0" visible="false">
+		<e:Image source="kaiju_json.New_顶部-底" x="0" y="0"/>
+		<e:Image id="return_btn" source="kaiju_json.New_tuichu1" x="39.24" y="32.94"/>
+		<e:Image id="tuoguan_btn" source="kaiju_json.New_tuoguan1" x="564" y="32.94"/>
+		<e:Image id="card_1" source="kaiju_json.New_顶部牌" x="153" y="4"/>
+		<e:Image id="card_2" source="kaiju_json.New_顶部牌" x="278" y="4"/>
+		<e:Image id="card_3" source="kaiju_json.New_顶部牌" x="401.1" y="4"/>
+	</e:Group>
+
+
+
+
+
+	<e:Group id="bottom_bar" x="6" y="993">
+		<e:Image source="kaiju_json.New_底部" x="0" y="0" width="1920"/>
+		<e:Button id="talk_btn" label="" anchorOffsetX="0" width="68" anchorOffsetY="0" height="67" x="1768.33" y="10">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="kaiju_json.New_消息"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="gold" x="65.52" y="6">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" x="34" height="67" width="272" y="2" source="kaiju_json.New_圆角矩形 5 拷贝"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" x="0" height="75" width="75" y="0" source="kaiju_json.New_金币"/>
+			<e:Label id="ekt_txt0" textColor="0xFFFFFF" size="35" text="10" x="152" y="12" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="103" anchorOffsetY="0" height="26"/>
+		</e:Group>
+		<e:Group x="462.64" y="9" id="diamond">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" x="34" height="67" width="272" y="2" source="kaiju_json.New_圆角矩形 5 拷贝"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" x="0" height="78" width="88" y="-12.12" source="kaiju_json.New_钻石"/>
+			<e:Label id="ekt_txt1" textColor="0xFFFFFF" size="36" text="10" x="152" y="12" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="103" anchorOffsetY="0" height="26"/>
+		</e:Group>
+		<e:Image source="kaiju_json.New_底分：" x="826.62" y="15"/>
+		<e:Image source="kaiju_json.New_倍数：" x="1134.25" y="15"/>
+		<e:Image source="kaiju_json.New_模式：" x="1404.48" y="15"/>
+		<e:Label id="difen_txt" text="0" x="960.08" y="26.03" textAlign="center" width="145.21" anchorOffsetY="0" height="40.97" size="40" verticalAlign="middle" anchorOffsetX="0"/>
+		<e:Label id="beishu_txt" text="0" x="1227.64" y="23" textAlign="center" width="145.21" anchorOffsetY="0" height="40.97" size="40" anchorOffsetX="0" verticalAlign="middle"/>
+		<e:Label id="moshi_txt" text="体验场" x="1540.67" y="22" textAlign="center" width="178.54" anchorOffsetY="0" height="44" size="40" anchorOffsetX="0" verticalAlign="middle"/>
+	</e:Group>
+	<e:Image id="call_txt" source="kaiju_json.bujiao" x="300.39" y="591.72" visible="false"/>
+	<e:Image id="left_call_txt" source="kaiju_json.bujiao" x="416" y="196" visible="false"/>
+	<e:Image id="right_call_txt" x="1195.1" y="196" source="kaiju_json.jiaodizhu" visible="false"/>
+
+
+
+
+
+
+
+	
+</e:Skin>

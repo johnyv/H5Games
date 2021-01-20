@@ -1,0 +1,190 @@
+syntax = "proto3";
+
+package com.protobuff.data;
+
+//牌模块
+message CardModule{
+	//花色(0.梅花;1.方块;2.红桃;3.黑桃)
+	int32 color = 1;
+	//值(3-15,小王:16,大王:17)
+	int32 value = 2;
+}
+//房间角色对象
+message RoleRoomModule{
+	//角色id
+	int32 roleId = 1;
+	//角色名称
+	string nickName = 2;
+	//头像
+	string imgurl = 3;
+	//当前金币数量
+	int32 copper = 4;
+	//所在位置(从0开始)
+	int32 index = 5;
+	//准备状态(主要是第二局时候准备阶段用的)(0.未准备;1.准备)
+	int32 status = 6;
+	//本局得到或者失去的金币(结算的时候才用)
+	int32 changeCopper = 7;
+	//结算时候状态(0.正常;1.达到上限;2.破产)
+	int32 settleStatus = 8;
+	//本局结果(0.失败;1.胜利)
+	int32 settleResult = 9;
+	//结算的时候自己剩余的牌
+	repeated CardModule cardList = 10;
+}
+//请求匹配(3001)
+message RequestMatchModule{
+	//比赛类型(1.暂定目前为1)
+	int32 type = 1;
+}
+//匹配结果(3002)
+message RequestMatchResultModule{
+	//比赛类型(1.暂定目前为1)
+	int32 type = 1;
+	//结果(1.成功进入匹配队列)
+	int32 result = 2;
+}
+//退出(只有在匹配阶段和准备阶段可以离开)(准备阶段其实是第一局结算后，自动进入第二局的准备阶段)(2003)
+message QuitModule{
+}
+//成功退出(3004)
+message QuitResultModule{
+}
+//匹配进入房间(3006)
+message EnterRoomModule{
+	//房间内人物列表
+	repeated RoleRoomModule roleList = 1;
+}
+//有人状态发生变化(3008)(进入或者离开或者准备)
+message RoleChangeModule{
+	//0.离开;1.进来;2.准备
+	int32 type = 1;
+	//人物
+	RoleRoomModule role = 2;
+}
+//开始发牌(3010)
+message StartModule{
+	//自己的牌列表
+	repeated CardModule cardList = 1;
+	//底牌数量
+	int32 count = 2;
+}
+//广播询问一个玩家是否叫地主(需要对比是否是自己)(3012)
+message GrabModule{
+	//角色id
+	int32 roleId = 1;
+	//0.叫地主;1.抢地主
+	int32 type = 2;
+	//剩余倒计时(单位:s)
+	int32 waitTime = 3;
+}
+//玩家选择是否叫/抢地主(3013)
+message DoGrabModule{
+	//0.不叫/抢;1.叫/抢
+	int32 type = 1;
+}
+//广播一个玩家是否叫地主(3014)
+message RoleGrabModule{
+	//角色id
+	int32 roleId = 1;
+	//1.叫地主;2.不叫;3.抢地主;4.不抢
+	int32 type = 2;
+}
+//广播地主和底牌(3016)
+message LandModule{
+	//地主角色id
+	int32 landId = 1;
+	//底牌列表
+	repeated CardModule cardList = 2;
+}
+//当前房间倍数(3018)(最终结果要三个乘在一起)
+message RoomCritModule{
+	//当前底注
+	int32 bottom = 1;
+	//当前底分
+	int32 point = 2;
+	//当前倍数
+	int32 crit = 3;
+}
+//广播询问一个玩家出牌(3020)
+message GoModule{
+	//角色id
+	int32 roleId = 1;
+	//本轮是不是自己第一个出(0.否;1.是)
+	int32 type = 2;
+	//剩余倒计时(单位:s)
+	int32 waitTime = 3;
+}
+//玩家出牌(3021)
+message StartGoModule{
+	//为空就是不出
+	repeated CardModule cardList = 1;
+}
+//玩家出牌结果(3022)
+message StartGoResultModule{
+	//1.成功;2.没到自己出牌;3.牌不存在;4.压不上
+	int32 result = 1;
+}
+//出牌类型 c1(1, "单牌"),
+//	 c2(2, "对子"),
+//	 c20(3, "王炸"),
+//	 c3(4, "3不带"),
+//	 c4(5, "炸弹"),
+//	 c31(6, "3带1"),
+//	 c32(7, "3带2"),
+//	 c411(8, "4带2个单，或者一对"),
+//	 c422(9, "4带2对"),
+//	 c123(10, "连子"),
+//	 c1122(11, "连队"),
+//	 c111222(12, "飞机"),
+//	 c11122234(13, "飞机带单排"),
+//	 c1112223344(14, "飞机带对子"),
+//	 c0(0, "不出");
+//广播一个玩家出的牌(3024)
+message RoleStarGoModule{
+	//角色id
+	int32 roleId = 1;
+	//出牌类型
+	int32 type = 2;
+	//角色出的牌
+	repeated CardModule cardList = 3;
+}
+//比赛结果(3026)
+message ResultModule{
+	//0.农民胜利;1.地主胜利
+	int32 result = 1;
+}
+//广播结算(3028)
+message SettlementModule{
+	//1.春天;0.正常
+	int32 isSingle = 1;
+	//0.地主输;1.地主赢
+	int32 isLand = 2;
+	//结算面板
+	repeated RoleRoomModule roleList = 3;
+}
+//下一局继续开就发准备的协议，不开始，就发退出的协议
+//准备(3029)
+message RolePrepareModule{
+	//0.不开始;1.开始
+	int32 status = 1;
+}
+//广播询问是否加倍(3030)
+message AddCritModule{
+	//角色id
+	int32 roleId = 1;
+	//剩余倒计时(单位:s)
+	int32 waitTime = 2;
+}
+//角色选择是否加倍(3031)
+message DoAddCritModule{
+	//1.加倍;0.不加倍
+	int32 crit = 1;
+}
+//广播一个角色是否加倍(3032)
+message RoleAddCritModule{
+	//角色id
+	int32 roleId = 1;
+	//1.加倍;0.不加倍
+	int32 crit = 2;
+}

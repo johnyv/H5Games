@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="hall" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="1920" height="1080" x="0" y="0" source="nn_df_bg_jpg"/>
+	<e:Button id="return_btn" label="" x="18" y="10">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="brnn_select_json.but_Unfold_0" source.down="brnn_select_json.but_Unfold_0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="primary" label="" x="143" y="213">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="brnn_select_json.nn_x_05" source.down="brnn_select_json.nn_x_05"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="high" label="" x="978" y="213">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="brnn_select_json.nn_x_10" source.down="brnn_select_json.nn_x_10"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image x="1564" y="23" scaleX="1" scaleY="1" source="brnn_select_json.BRNN_logo"/>
+</e:Skin>

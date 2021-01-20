@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewFile" width="350" height="159" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="BRNN_Battle_json.BRNN_Avatar" x="0" y="0" width="166" height="166"/>
+	<e:Image source="BRNN_Battle_json.BRNN_Avatar_0" x="19" y="14"/>
+	<e:Image source="BRNN_Battle_json.BRNN_gold" x="156" y="87"/>
+	<e:Label text="鸭王来了" x="156" y="39" size="32"/>
+	<e:Label text="195440" x="198" y="87" size="32" textColor="0xFFFF00"/>
+	<e:Image source="BRNN_Battle_json.BRNN_GB" x="44" y="109"/>
+</e:Skin>

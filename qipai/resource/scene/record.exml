@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1334" height="750" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="1334" height="750" x="0" y="0" source="ground_bg_png"/>
+	<e:Label text="没有更多记录了" verticalAlign="middle" textAlign="center" verticalCenter="291" bold="true" anchorOffsetX="0" width="294" horizontalCenter="64" textColor="0xb5bede" size="24"/>
+	<e:Button id="return_btn" label="Button" x="40" y="30">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+			<e:Image width="100%" height="100%" source="goBack_png"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group width="1120" height="50" y="106" anchorOffsetX="0" horizontalCenter="36" anchorOffsetY="0">
+		<e:Rect width="1120" height="50" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" scaleX="1" scaleY="1" fillColor="0xf0d885"/>
+		<e:Label text="身份" x="170" y="0" textColor="0x000000" bold="true" size="24" anchorOffsetY="0" height="49" verticalAlign="middle" textAlign="center"/>
+		<e:Label text="结果" x="340" y="0" textColor="0x000000" bold="true" size="24" anchorOffsetY="0" height="49" verticalAlign="middle" textAlign="center"/>
+		<e:Label text="底分" x="500" y="0" textColor="0x000000" bold="true" size="24" anchorOffsetY="0" height="49" verticalAlign="middle" textAlign="center"/>
+		<e:Label text="倍数" x="580" y="0" textColor="0x000000" bold="true" size="24" anchorOffsetY="0" height="49" verticalAlign="middle" textAlign="center"/>
+		<e:Label text="时间" x="916" y="0" textColor="0x000000" bold="true" size="24" anchorOffsetY="0" height="49" verticalAlign="middle" textAlign="center"/>
+		<e:Label text="金币EKT" x="660" y="0" textColor="0x000000" bold="true" size="24" anchorOffsetY="0" height="49" verticalAlign="middle" textAlign="center"/>
+	</e:Group>
+	<e:Group width="1120" height="110" y="156" x="143">
+		<e:Rect width="1120" height="110" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x0d1b51" strokeAlpha="1" strokeWeight="2" strokeColor="0xf0d885" ellipseHeight="8" ellipseWidth="8"/>
+		<e:Image width="80" height="80" source="farmer_head_png" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" x="34"/>
+		<e:Image width="118" height="40" anchorOffsetX="0" anchorOffsetY="0" x="126" source="farm_icon_png" verticalCenter="0"/>
+		<e:Label text="失败" x="329" verticalAlign="middle" textAlign="center" verticalCenter="0" textColor="0xb3b4b7" bold="true"/>
+		<e:Label text="10 / 24 / -240" x="500" verticalAlign="middle" textAlign="center" bold="true" anchorOffsetX="0" width="254" anchorOffsetY="0" height="32" verticalCenter="0" textColor="0xffffff"/>
+		<e:Label text="2019-3-4 16:24" x="813.5" verticalAlign="middle" textAlign="center" textColor="0xFFFFFF" bold="true" anchorOffsetX="0" width="254" anchorOffsetY="0" height="32" verticalCenter="0" size="24" alpha="0.7"/>
+	</e:Group>
+	<e:Group width="1120" height="110" y="276" x="143">
+		<e:Rect width="1120" height="110" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x0D1B51" strokeAlpha="1" strokeWeight="2" strokeColor="0xF0D885" ellipseHeight="8" ellipseWidth="8"/>
+		<e:Image width="80" height="80" source="farmer_head_png" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" x="34"/>
+		<e:Image width="118" height="40" anchorOffsetX="0" anchorOffsetY="0" x="126" source="farm_icon_png" verticalCenter="0"/>
+		<e:Label text="失败" x="329" verticalAlign="middle" textAlign="center" verticalCenter="0" textColor="0xB3B4B7" bold="true"/>
+		<e:Label text="10 / 24 / -240" x="500" verticalAlign="middle" textAlign="center" bold="true" anchorOffsetX="0" width="254" anchorOffsetY="0" height="32" verticalCenter="0" textColor="0xFFFFFF"/>
+		<e:Label text="2019-3-4 16:24" x="813.5" verticalAlign="middle" textAlign="center" textColor="0xFFFFFF" bold="true" anchorOffsetX="0" width="254" anchorOffsetY="0" height="32" verticalCenter="0" size="24" alpha="0.7"/>
+	</e:Group>
+	<e:Group width="1120" height="110" y="396" x="143">
+		<e:Rect width="1120" height="110" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x0D1B51" strokeAlpha="1" strokeWeight="2" strokeColor="0xF0D885" ellipseHeight="8" ellipseWidth="8"/>
+		<e:Image width="80" height="80" source="farmer_head_png" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" x="34"/>
+		<e:Image width="118" height="40" anchorOffsetX="0" anchorOffsetY="0" x="126" source="farm_icon_png" verticalCenter="0"/>
+		<e:Label text="失败" x="329" verticalAlign="middle" textAlign="center" verticalCenter="0" textColor="0xB3B4B7" bold="true"/>
+		<e:Label text="10 / 24 / -240" x="500" verticalAlign="middle" textAlign="center" bold="true" anchorOffsetX="0" width="254" anchorOffsetY="0" height="32" verticalCenter="0" textColor="0xFFFFFF"/>
+		<e:Label text="2019-3-4 16:24" x="813.5" verticalAlign="middle" textAlign="center" textColor="0xFFFFFF" bold="true" anchorOffsetX="0" width="254" anchorOffsetY="0" height="32" verticalCenter="0" size="24" alpha="0.7"/>
+	</e:Group>
+	<e:Group width="1120" height="110" y="516" x="143">
+		<e:Rect width="1120" height="110" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x0D1B51" strokeAlpha="1" strokeWeight="2" strokeColor="0xF0D885" ellipseHeight="8" ellipseWidth="8"/>
+		<e:Image width="80" height="80" source="farmer_head_png" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" x="34"/>
+		<e:Image width="118" height="40" anchorOffsetX="0" anchorOffsetY="0" x="126" source="farm_icon_png" verticalCenter="0"/>
+		<e:Label text="失败" x="329" verticalAlign="middle" textAlign="center" verticalCenter="0" textColor="0xB3B4B7" bold="true"/>
+		<e:Label text="10 / 24 / -240" x="500" verticalAlign="middle" textAlign="center" bold="true" anchorOffsetX="0" width="254" anchorOffsetY="0" height="32" verticalCenter="0" textColor="0xFFFFFF"/>
+		<e:Label text="2019-3-4 16:24" x="813.5" verticalAlign="middle" textAlign="center" textColor="0xFFFFFF" bold="true" anchorOffsetX="0" width="254" anchorOffsetY="0" height="32" verticalCenter="0" size="24" alpha="0.7"/>
+	</e:Group>
+	<e:Scroller width="1120" height="484" x="143" y="156" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group/>
+	</e:Scroller>
+</e:Skin>

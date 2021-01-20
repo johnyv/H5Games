@@ -1,0 +1,129 @@
+syntax = "proto3";
+
+package com.protobuff.data;
+
+//牌模块
+message NiuNiuCardModule{
+	//值(1-13)
+	int32 value = 1;
+}
+//房间角色对象
+message NiuNiuRoleRoomModule{
+	//角色id
+	int32 roleId = 1;
+	//角色名称
+	string nickName = 2;
+	//头像
+	string imgurl = 3;
+	//当前金币数量
+	int32 copper = 4;
+	//所在位置(从0开始)
+	int32 index = 5;
+	//准备状态(主要是第二局时候准备阶段用的)(0.未准备;1.准备)
+	int32 status = 6;
+	//本局得到或者失去的金币(结算的时候才用)
+	int32 changeCopper = 7;
+	//结算时候状态(0.正常;1.达到上限;2.破产)
+	int32 settleStatus = 8;
+	//本局结果(0.失败;1.胜利)
+	int32 settleResult = 9;
+	//结算的时候自己剩余的牌
+	repeated NiuNiuCardModule cardList = 10;
+	//牌型(牛牛结算用)(0:无牛.1-6:牛一到牛六.7-9:牛七到牛九.10:牛牛.11:四花.12:五花.13:炸弹.14:小牛牛)
+	int32 niuniuCardType = 11;
+}
+//请求匹配(4001)
+message NiuNiuRequestMatchModule{
+	//比赛类型(1.暂定目前为1)
+	int32 type = 1;
+}
+//匹配结果(4002)
+message NiuNiuRequestMatchResultModule{
+	//比赛类型(1.暂定目前为1)
+	int32 type = 1;
+	//结果(1.成功进入匹配队列)
+	int32 result = 2;
+}
+//退出(只有在匹配阶段和准备阶段可以离开)(准备阶段其实是第一局结算后，自动进入第二局的准备阶段)(4003)
+message NiuNiuQuitModule{
+}
+//成功退出(4004)
+message NiuNiuQuitResultModule{
+}
+//匹配进入房间(4006)
+message NiuNiuEnterRoomModule{
+	//倒计时(单位:s)
+	int32 waittime = 1;
+	//房间内人物列表
+	repeated NiuNiuRoleRoomModule roleList = 2;
+}
+//有人状态发生变化(4008)(进入或者离开或者准备)
+message NiuNiuRoleChangeModule{
+	//0.离开;1.进来;2.准备
+	int32 type = 1;
+	//人物
+	NiuNiuRoleRoomModule role = 2;
+}
+//开始发牌(4010)
+message NiuNiuStartModule{
+	//是否是第一次(第一次是四张，不是第一次是补发的第五张)
+	int32 isFirst = 1;
+	//自己的牌列表
+	repeated NiuNiuCardModule cardList = 2;
+}
+//广播询问叫庄(4012)
+message NiuNiuGrabModule{
+	int32 waitTime = 1;
+}
+//玩家选择叫/抢庄(4013)
+message NiuNiuDoGrabModule{
+	//0、1、2、3、4
+	int32 type = 1;
+}
+//广播一个玩家是否叫庄(4014)
+message NiuNiuRoleGrabModule{
+	//角色id
+	int32 roleId = 1;
+	//0、1、2、3、4
+	int32 type = 2;
+}
+//广播庄家(4016)
+message NiuNiuLandModule{
+	//庄家角色id
+	int32 landId = 1;
+}
+//广播询问下注(4018)
+message NiuNiuAddCritModule{
+	//剩余倒计时(单位:s)
+	int32 waitTime = 1;
+}
+//角色选择下注(4019)
+message NiuNiuDoAddCritModule{
+	//下的倍数
+	int32 crit = 1;
+}
+//广播一个角色下注(4020)
+message NiuNiuRoleAddCritModule{
+	//角色id
+	int32 roleId = 1;
+	//下注数
+	int32 crit = 2;
+}
+//当前房间玩家倍数(4022)
+message NiuNiuRoomCritModule{
+	//当前角色id
+	int32 roleId = 1;
+	//当前玩家倍数(庄家是倍数，其他是下注数)
+	int32 crit = 2;
+}
+//广播结算(4024)
+message NiuNiuSettlementModule{
+	//结算面板
+	repeated NiuNiuRoleRoomModule roleList = 1;
+}
+//下一局是否继续开始
+//准备(4025)
+message NiuNiuRolePrepareModule{
+	//0.不开始;1.开始
+	int32 status = 1;
+}

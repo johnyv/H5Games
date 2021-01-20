@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="1920" height="1080" x="0" y="0" source="Game_Rule_bg_jpg" locked="true"/>
+	<e:Image source="GameRule_json.game_rule_black" x="0" y="0" width="1920" height="1080" locked="true"/>
+	<e:Group x="103" y="102" locked="true">
+		<e:Image source="game_rule_png" x="0" y="0"/>
+		<e:Button label="" x="1609" y="33">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="GameRule_json.game_rule_close" source.down="GameRule_json.game_rule_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+
+
+
+
+
+	<e:Group id="dzz_rule" x="160" y="270" height="2600">
+		<e:Label text="基础玩法" x="0" y="0" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xffff00"/>
+		<e:Label text="1.发牌：一副牌，六三张牌，其他发给三家，底牌加到地主手中。" x="0" y="50.5" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="2.叫牌：较牌按照出牌的顺序轮流进行，没人只能叫一次。较牌时可以叫“1分”.“2分”.“3分”.“不叫”。后叫牌者只能叫比前面高的分或者不叫。叫牌结束后所哟叫分值最大的玩家为地主；如果有玩家叫“3分”则立即结束叫牌，该玩家为地主；如果都不叫，则重新发牌，重新较牌。" x="0" y="101" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="3.加倍；叫牌结束后，农民玩家可以选择“加倍”.和“不加倍”。加倍后玩家输赢结算得分翻倍，不加倍得分无倍率变化。" x="0" y="219.5" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="3.出牌：三张底牌亮起后，由地主首先出牌，然后按照逆时针顺序依次出牌，也可以选择“不出”表示本轮不出牌。" x="0" y="304" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="牌型大小" x="0" y="1869" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xffff00"/>
+		<e:Label text="牌型说明" x="0" y="378" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xffff00"/>
+		<e:Label text="1.火箭最大。" x="0" y="1928" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="2.炸弹牌型大于除火箭外所有的牌型。炸弹的牌型相互比较时，点数打的炸弹大" x="0" y="1980.6666666666667" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="3.非炸弹的牌型，只有牌型和张数相同才能相互比较，点数大的则大。三代二，飞机带翅膀的牌型比较牌型中樟树最多的牌的点数即可。" x="0" y="2033.3333333333335" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="4.点数大小：大王＞小王＞2＞A＞K＞Q＞J＞10＞9＞8＞7＞6＞5＞4＞3" x="0" y="2120" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="计分规则" x="0" y="2204" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xffff00"/>
+		<e:Label text="1.叫分：总倍数*叫分分值" x="0" y="2251.63" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="2.炸弹：总倍数*2" x="0" y="2298.27" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="3.春天：地主出牌至牌局结束，农民一张牌未出即为春天，总倍数*2。" x="0" y="2344" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="4.反春天：地主只出了第一手牌后，农民出牌至结束即为反春天，总倍数*2。" x="0" y="2390" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="5.游戏总倍数上不封顶，但最大输赢分不超过自己所携带金币。" x="0" y="2436" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Group x="0" y="434">
+			<e:Image source="GameRule_json.game_rule_black" x="0" y="0" scale9Grid="33,29,61,73" width="512" height="333"/>
+			<e:Label text="火箭" x="0" y="31" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xffc499"/>
+			<e:Label text="双王牌（最大的牌）" x="0" y="232" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xffffff"/>
+			<e:Image source="GameRule_json.dzz_rule_JOJO" x="195" y="88"/>
+		</e:Group>
+		<e:Group x="541" y="434">
+			<e:Image source="GameRule_json.game_rule_black" x="0" y="0" scale9Grid="33,29,61,73" width="512" height="333"/>
+			<e:Label text="炸弹" x="0" y="31" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFC499"/>
+			<e:Label text="点数相同的4张牌，同为炸弹比点数大小。" x="0" y="232" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFFFFF"/>
+			<e:Image x="163" y="88" source="GameRule_json.dzz_rule_BOOM"/>
+		</e:Group>
+		<e:Group x="1082" y="434">
+			<e:Image source="GameRule_json.game_rule_black" x="0" y="0" scale9Grid="33,29,61,73" width="512" height="333"/>
+			<e:Label text="单牌" x="0" y="31" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFC499"/>
+			<e:Label text="单张牌" x="0" y="232" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFFFFF"/>
+			<e:Image x="210" y="88" source="GameRule_json.dzz_rule_1"/>
+		</e:Group>
+		<e:Group x="0" y="788">
+			<e:Image source="GameRule_json.game_rule_black" x="0" y="0" scale9Grid="33,29,61,73" width="512" height="333"/>
+			<e:Label text="对子" x="0" y="31" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFC499"/>
+			<e:Label text="点数相同的两张牌" x="0" y="232" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFFFFF"/>
+			<e:Image x="195" y="88" source="GameRule_json.dzz_rule_2"/>
+		</e:Group>
+		<e:Group x="541" y="788">
+			<e:Image source="GameRule_json.game_rule_black" x="0" y="0" scale9Grid="33,29,61,73" width="512" height="333"/>
+			<e:Label text="三张" x="0" y="31" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFC499"/>
+			<e:Label text="点数相同的三张牌" x="0" y="232" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFFFFF"/>
+			<e:Image x="178" y="88" source="GameRule_json.dzz_rule_3"/>
+		</e:Group>
+		<e:Group x="1082" y="788">
+			<e:Image source="GameRule_json.game_rule_black" x="0" y="0" scale9Grid="33,29,61,73" width="512" height="333"/>
+			<e:Label text="三带一" x="0" y="31" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFC499"/>
+			<e:Label text="点数相同的三张牌+1张单牌" x="0" y="232" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFFFFF"/>
+			<e:Image x="158" y="88" source="GameRule_json.dzz_rule_3d1"/>
+		</e:Group>
+		<e:Group x="541" y="1142">
+			<e:Image source="GameRule_json.game_rule_black" x="0" y="0" scale9Grid="33,29,61,73" width="512" height="333"/>
+			<e:Label text="顺子" x="0" y="31" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFC499"/>
+			<e:Label text="五张及以上的连续单牌" x="0" y="232" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFFFFF"/>
+			<e:Image x="148" y="88" source="GameRule_json.dzz_rule_78910J"/>
+		</e:Group>
+		<e:Group x="1082" y="1142">
+			<e:Image source="GameRule_json.game_rule_black" x="0" y="0" scale9Grid="33,29,61,73" width="512" height="333"/>
+			<e:Label text="连对" x="0" y="31" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFC499"/>
+			<e:Label text="3对及以上的连续对子（不包括2和王）" x="0" y="232" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFFFFF"/>
+			<e:Image x="131" y="88" source="GameRule_json.dzz_rule_AAKKQQ"/>
+		</e:Group>
+		<e:Group x="0" y="1142">
+			<e:Image source="GameRule_json.game_rule_black" x="0" y="0" scale9Grid="33,29,61,73" width="512" height="333"/>
+			<e:Label text="三带二" x="0" y="31" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFC499"/>
+			<e:Label text="点数相同的三张牌+1对子" x="0" y="232" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFFFFF"/>
+			<e:Image x="138" y="88" source="GameRule_json.dzz_rule_3d2"/>
+		</e:Group>
+		<e:Group x="0" y="1496">
+			<e:Image source="GameRule_json.game_rule_black" x="0" y="0" scale9Grid="33,29,61,73" width="512" height="333"/>
+			<e:Label text="飞机" x="0" y="31" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFC499"/>
+			<e:Label text="2个及以上的连续【三张】（不包括2和王）" x="0" y="232" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFFFFF"/>
+			<e:Image x="123" y="88" source="GameRule_json.dzz_rule_KKKQQQ"/>
+		</e:Group>
+		<e:Group x="541" y="1496">
+			<e:Image source="GameRule_json.game_rule_black" x="0" y="0" scale9Grid="33,29,61,73" width="512" height="333"/>
+			<e:Label text="飞机带翅膀" x="0" y="31" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFC499"/>
+			<e:Label text="【飞机】带相同数量的【单牌】或【对子】" x="0" y="232" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFFFFF"/>
+			<e:Image x="72" y="88" source="GameRule_json.dzz_rule_3x3x2x2"/>
+		</e:Group>
+		<e:Group x="1082" y="1496">
+			<e:Image source="GameRule_json.game_rule_black" x="0" y="0" scale9Grid="33,29,61,73" width="512" height="333"/>
+			<e:Label text="四带二" x="0" y="31" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFC499"/>
+			<e:Label text="【炸弹】带2张【单牌】或2对【对子】" x="0" y="232" width="512" size="34" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFFFFF"/>
+			<e:Image x="139" y="88" source="GameRule_json.dzz_rule_4d2"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="qznn_rule" x="160" y="270" height="1280" locked="true" visible="false">
+		<e:Label text="基本牌型" x="0" y="0" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="牌型大小：五花牛＞四花牛＞牛牛＞有牛＞没牛" x="0" y="727" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="牌型倍率：五花牛×5	四花牛×4	牛牛×3	牛九~牛七×2	牛六~没牛×1" x="0" y="788.8" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="点数大小：K＞Q＞J＞10＞9＞8＞7＞6＞5＞4＞3＞2＞A" x="0" y="850.6" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="花色大小：黑桃＞红桃＞梅花＞方块" x="0" y="912.4" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="结算方式：庄家抢庄倍率*闲家下注倍率*获胜牌型倍率*底分" x="0" y="974.2" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="特殊：出现相同牌型，比较双方最大一张牌点数大小，若点数也相同则比较花色大小。" x="0" y="1036" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Group x="0" y="63">
+			<e:Label text="没牛" x="275" y="19" width="1280" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+			<e:Label text="任意3张相加无法组成10的倍数" x="275" y="66" width="1280" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+			<e:Image source="GameRule_json.nn_rule_nn" x="0" y="0"/>
+		</e:Group>
+		<e:Group x="0" y="194">
+			<e:Label text="牛九~牛一" x="275" y="19" width="1280" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+			<e:Label text="任意3张点数相加为10的倍数，另外2张点数相加个数为几，即为牛几。" x="275" y="66" width="1280" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+			<e:Image x="0" y="0" source="GameRule_json.nn_rule_n91"/>
+		</e:Group>
+		<e:Group x="0" y="325">
+			<e:Label text="牛牛" x="275" y="19" width="1280" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+			<e:Label text="任意3张点数相加为10的倍数，另外2张点数相加为10的倍数。" x="275" y="66" width="1280" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+			<e:Image x="0" y="0" source="GameRule_json.nn_rule_nn"/>
+		</e:Group>
+		<e:Group x="0" y="456">
+			<e:Label text="四花牛" x="275" y="19" width="1280" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+			<e:Label text="牌面为10、J、Q、K任意组合，且组合中只存在一张10。" x="275" y="66" width="1280" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+			<e:Image x="0" y="0" source="GameRule_json.nn_rule_4hn"/>
+		</e:Group>
+		<e:Group x="0" y="587">
+			<e:Label text="五花牛" x="275" y="19" width="1280" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+			<e:Label text="牌面为J、Q、K任意组合" x="275" y="66" width="1280" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+			<e:Image x="0" y="0" source="GameRule_json.nn_rule_5hn"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="brnn_rule" x="160" y="270" height="1280" locked="true" visible="false">
+		<e:Label text="《百人牛牛》是一款及刺激的多人扑克游戏，游戏由四个投注区组成。游戏开始，每个投注区及庄家各发5张牌，各投注区分别与庄家比较牌型大小，确定胜负。玩家满足上庄条件可申请上庄，庄家不允许投注。" x="0" y="0" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="基本牌型大小：五花牛＞四花牛＞牛牛＞有牛＞没牛" x="0" y="89.875" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="有牛牌型大小：牛九＞牛八＞牛七＞牛六＞牛五＞牛四＞牛三＞牛二＞牛一" x="0" y="146.55" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="低倍场牌型倍率：五小牛及四炸×5	五花牛及四花牛×4	牛牛×3	牛七~牛九×2		没牛~牛六×1" x="0" y="202.225" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="高倍场牌型倍率：牛牛及以上牌型×10	牛一~牛九对应倍率×1~9	没牛×1" x="0" y="258.9" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="单张大小：K＞Q＞J＞10＞9＞8＞7＞6＞5＞4＞3＞2＞A" x="0" y="314.575" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="花色大小：黑桃＞红桃＞梅花＞方块" x="0" y="370.25" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="结算方式：庄家抢庄倍率*闲家下注倍率*获胜牌型倍率*底分" x="0" y="427.125" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="特殊：出现相同牌型，比较双方最大一张牌点数大小，若点数也相同则比较花色大小。" x="0" y="483" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="基本牌型" x="0" y="544" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="center"/>
+		<e:Group x="24" y="590">
+		<e:Label text="五小牛" x="275" y="2" width="480" size="34" fontFamily="Microsoft YaHei" textAlign="left" textColor="0xffff00"/>
+		<e:Label text="5张牌军部大于5且相加之和部大于10。" x="275" y="43" width="480" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Image x="0" y="0" source="GameRule_json.nn_rule_5xn"/>
+		</e:Group>
+		<e:Group x="817" y="590">
+			<e:Label text="四炸" x="275" y="2" width="480" size="34" fontFamily="Microsoft YaHei" textAlign="left" textColor="0xFFFF00"/>
+			<e:Label text="5张牌中又4张完全一样。" x="275" y="43" width="480" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+			<e:Image x="0" y="0" source="GameRule_json.nn_rule_4z"/>
+		</e:Group>
+		<e:Group x="24" y="727.6666666666666">
+			<e:Label text="五花牛" x="275" y="2" width="480" size="34" fontFamily="Microsoft YaHei" textAlign="left" textColor="0xFFFF00"/>
+			<e:Label text="牌面为J、Q、K的任意组合" x="275" y="43" width="480" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+			<e:Image x="0" y="0" source="GameRule_json.nn_rule_5hn"/>
+		</e:Group>
+		<e:Group x="817" y="729">
+			<e:Label text="四花牛" x="275" y="2" width="480" size="34" fontFamily="Microsoft YaHei" textAlign="left" textColor="0xFFFF00"/>
+			<e:Label text="牌面为10、J、Q、K的任意组合，且组合只能存在一张10。" x="275" y="43" width="480" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+			<e:Image x="0" y="0" source="GameRule_json.nn_rule_4hn"/>
+		</e:Group>
+		<e:Group x="24" y="865.3333333333333">
+			<e:Label text="牛牛" x="275" y="2" width="480" size="34" fontFamily="Microsoft YaHei" textAlign="left" textColor="0xFFFF00"/>
+			<e:Label text="5张拍中任意3张相加为10的倍数，余2张相加为10的倍数。" x="275" y="43" width="480" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+			<e:Image x="0" y="0" source="GameRule_json.nn_rule_nn"/>
+		</e:Group>
+		<e:Group x="817" y="868">
+			<e:Label text="牛一~牛九" x="275" y="2" width="480" size="34" fontFamily="Microsoft YaHei" textAlign="left" textColor="0xFFFF00"/>
+			<e:Label text="5张牌中任意3张相加为10的倍数，余2张个位数为几即为牛几（JQK为10，A为1）" x="275" y="43" width="480" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+			<e:Image x="0" y="0" source="GameRule_json.nn_rule_n91"/>
+		</e:Group>
+		<e:Group x="24" y="1003">
+			<e:Label text="没牛" x="275" y="2" width="480" size="34" fontFamily="Microsoft YaHei" textAlign="left" textColor="0xFFFF00"/>
+			<e:Label text="5张牌中任意3张相加不为10的倍数" x="275" y="43" width="480" size="34" fontFamily="Microsoft YaHei" textAlign="left"/>
+			<e:Image x="0" y="0" source="GameRule_json.nn_rule_mn"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="qznn_rule_tip" text="每局游戏结算，将收取盈利部分5%的服务费。" x="160" y="908" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="center" locked="true" visible="false"/>
+	<e:Label id="brnn_rule_tip" text="每局游戏结算将收取盈利部分3%的服务费，且最大输赢分不超过所携带的金币。" x="160" y="908" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="center" locked="true" visible="false"/>
+	<e:Label id="ddz_rule_tip" text="每局游戏结算将收取盈利部分3%的服务费，且最大输赢分不超过所携带的金币。" x="160" y="908" width="1595" size="34" fontFamily="Microsoft YaHei" textAlign="center" locked="true" visible="false"/>
+
+
+
+
+
+
+
+
+</e:Skin>

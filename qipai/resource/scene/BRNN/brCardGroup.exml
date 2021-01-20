@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="bairenCardGroup" width="306" height="196" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="card_0" x="0" y="0" scaleX="0.67" scaleY="0.67" source="niuniu_card_json.card_back"/>
+	<e:Image id="card_1" x="42" y="0" scaleX="0.67" scaleY="0.67" source="niuniu_card_json.card_back"/>
+	<e:Image id="card_2" x="84" y="0" scaleX="0.67" scaleY="0.67" source="niuniu_card_json.card_back"/>
+	<e:Image id="card_3" x="126" y="0" scaleX="0.67" scaleY="0.67" source="niuniu_card_json.card_back"/>
+	<e:Image id="card_4" x="168" y="0" scaleX="0.67" scaleY="0.67" source="niuniu_card_json.card_back"/>
+	<e:Image id="result_state" source="nn_n5hn_png" x="25" y="40" visible="false"/>
+</e:Skin>

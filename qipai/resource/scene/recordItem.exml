@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1120" height="120" xmlns:e="http://ns.egret.com/eui">
+	<e:Group width="1120" height="110" y="0" x="0">
+		<e:Rect width="1120" height="110" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x0D1B51" strokeAlpha="1" strokeWeight="2" strokeColor="0xF0D885" ellipseHeight="8" ellipseWidth="8"/>
+		<e:Image width="80" height="80" source="farmer_head_png" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" x="34"/>
+		<e:Image width="118" height="40" anchorOffsetX="0" anchorOffsetY="0" x="126" source="farm_icon_png" verticalCenter="0"/>
+		<e:Label text="失败" x="329" verticalAlign="middle" textAlign="center" verticalCenter="0" textColor="0xB3B4B7" bold="true"/>
+		<e:Label text="10 / 24 / -240" x="500" verticalAlign="middle" textAlign="center" bold="true" anchorOffsetX="0" width="254" anchorOffsetY="0" height="32" verticalCenter="0" textColor="0xFFFFFF"/>
+		<e:Label text="2019-3-4 16:24" x="813.5" verticalAlign="middle" textAlign="center" textColor="0xFFFFFF" bold="true" anchorOffsetX="0" width="254" anchorOffsetY="0" height="32" verticalCenter="0" size="24" alpha="0.7"/>
+	</e:Group>
+</e:Skin>

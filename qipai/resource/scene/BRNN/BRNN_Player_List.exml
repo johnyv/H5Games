@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BRNN_Player_List" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="BRNN_List_json.BRNN_list_black" x="0" y="0" scale9Grid="10,10,12,13" width="1920" height="1080" locked="true"/>
+	<e:Image source="List_W_png" x="103" y="102"/>
+	<e:Button label="" x="1712" y="149">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BRNN_List_json.BRNN_List_close" source.down="BRNN_List_json.BRNN_List_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="BRNN_List_json.BRNN_list_playes" x="834" y="147"/>
+	<e:Label text="总人数：95" x="253" y="174" size="32" textColor="0xffff00" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Group x="176" y="267">
+		<e:Image source="BRNN_List_json.BRNN_List_P" x="0" y="0" width="1572" scale9Grid="64,70,29,26"/>
+		<e:Image source="BRNN_List_json.BRNN_DFW1" x="80" y="30"/>
+		<e:Image source="BRNN_List_json.BRNN_SQS1" x="80" y="30"/>
+		<e:Label text="阿猴" x="477" y="26" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="近二十局" x="879" y="64" size="38" fontFamily="Microsoft YaHei" textAlign="left" textColor="0x000000"/>
+		<e:Label text="第五名" x="93" y="64" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="下注：94003100" x="1129" y="38" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="获胜：99" x="1129" y="94" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Image source="BRNN_List_json.BRNN_list_playes_a" x="295" y="5"/>
+		<e:Image source="BRNN_List_json.BRNN_Avatar_1" x="314" y="19"/>
+		<e:Image source="BRNN_List_json.BRNN_list_B" x="477" y="81"/>
+		<e:Image source="BRNN_List_json.BRNN_list_gold" x="477" y="82"/>
+		<e:Label text="1990" x="550" y="94" size="38" fontFamily="Microsoft YaHei" textAlign="left" textColor="0xffcc6a"/>
+		<e:Image source="BRNN_List_json.BRNN_GB1" x="115" y="62"/>
+	</e:Group>
+	<e:Group x="176" y="452">
+		<e:Image source="BRNN_List_json.BRNN_List_P" x="0" y="0" scale9Grid="64,70,29,26" width="1572"/>
+		<e:Image source="BRNN_List_json.BRNN_DFW1" x="80" y="30"/>
+		<e:Image source="BRNN_List_json.BRNN_SQS1" x="80" y="30"/>
+		<e:Label text="阿猴" x="477" y="26" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="近二十局" x="879" y="64" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="第五名" x="93" y="64" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="下注：94003100" x="1129" y="38" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="获胜：99" x="1129" y="94" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Image source="BRNN_List_json.BRNN_list_playes_a" x="295" y="5"/>
+		<e:Image source="BRNN_List_json.BRNN_Avatar_1" x="314" y="19"/>
+		<e:Image source="BRNN_List_json.BRNN_list_B" x="477" y="81"/>
+		<e:Image source="BRNN_List_json.BRNN_list_gold" x="477" y="82"/>
+		<e:Label text="1990" x="550" y="94" size="38" textColor="0xFFCC6A" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Image source="BRNN_List_json.BRNN_GB1" x="115" y="62"/>
+	</e:Group>
+	<e:Group x="176" y="637">
+		<e:Image source="BRNN_List_json.BRNN_List_P" x="0" y="0" scale9Grid="64,70,29,26" width="1572"/>
+		<e:Image source="BRNN_List_json.BRNN_DFW1" x="80" y="30"/>
+		<e:Image source="BRNN_List_json.BRNN_SQS1" x="80" y="30"/>
+		<e:Label text="阿猴" x="477" y="26" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="近二十局" x="879" y="64" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="第五名" x="93" y="64" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="下注：94003100" x="1129" y="38" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="获胜：99" x="1129" y="94" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Image source="BRNN_List_json.BRNN_list_playes_a" x="295" y="5"/>
+		<e:Image source="BRNN_List_json.BRNN_Avatar_1" x="314" y="19"/>
+		<e:Image source="BRNN_List_json.BRNN_list_B" x="477" y="81"/>
+		<e:Image source="BRNN_List_json.BRNN_list_gold" x="477" y="82"/>
+		<e:Label text="1990" x="550" y="94" size="38" textColor="0xFFCC6A" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Image source="BRNN_List_json.BRNN_GB1" x="115" y="62"/>
+	</e:Group>
+	<e:Group x="176" y="822">
+		<e:Image source="BRNN_List_json.BRNN_List_P" x="0" y="0" scale9Grid="64,70,29,26" width="1572"/>
+		<e:Image source="BRNN_List_json.BRNN_DFW1" x="80" y="30"/>
+		<e:Image source="BRNN_List_json.BRNN_SQS1" x="80" y="30"/>
+		<e:Label text="阿猴" x="477" y="26" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="近二十局" x="879" y="64" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="第五名" x="93" y="64" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="下注：94003100" x="1129" y="38" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Label text="获胜：99" x="1129" y="94" size="38" textColor="0x000000" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Image source="BRNN_List_json.BRNN_list_playes_a" x="295" y="5"/>
+		<e:Image source="BRNN_List_json.BRNN_Avatar_1" x="314" y="19"/>
+		<e:Image source="BRNN_List_json.BRNN_list_B" x="477" y="81"/>
+		<e:Image source="BRNN_List_json.BRNN_list_gold" x="477" y="82"/>
+		<e:Label text="1990" x="550" y="94" size="38" textColor="0xFFCC6A" fontFamily="Microsoft YaHei" textAlign="left"/>
+		<e:Image source="BRNN_List_json.BRNN_GB1" x="115" y="62"/>
+	</e:Group>
+</e:Skin>

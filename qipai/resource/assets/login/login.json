@@ -1,0 +1,6 @@
+{"file":"login.png","frames":{
+"huoqu_btn":{"x":1650,"y":1083,"w":204,"h":100,"offX":0,"offY":0,"sourceW":204,"sourceH":100},
+"kuang_bg":{"x":1234,"y":1225,"w":531,"h":106,"offX":5,"offY":5,"sourceW":541,"sourceH":115},
+"login_btn":{"x":1234,"y":1083,"w":414,"h":140,"offX":0,"offY":0,"sourceW":414,"sourceH":140},
+"popup_window":{"x":1,"y":1083,"w":1231,"h":842,"offX":0,"offY":0,"sourceW":1231,"sourceH":842},
+"login_dark_bg":{"x":1,"y":1,"w":1920,"h":1080,"offX":0,"offY":0,"sourceW":1920,"sourceH":1080}}}

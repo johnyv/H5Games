@@ -1,0 +1,25 @@
+syntax = "proto3";
+package com.protobuff.data;
+
+//发送一条聊天消息(1701)
+message SendChatMessageModule{
+	//聊天类型(1.世界聊天;2.房间)
+	int32 chatType = 1;
+	//对方角色id(默认为0)(房间内有可能是对其中玩家发送的)
+	int32 rId = 2;
+	//内容(房间内聊天是id)
+	string content = 3;
+}
+//收到他人发送的聊天(1702)
+message ReceiveChatMessageModule{
+	//聊天类型(1.世界聊天;2.房间)
+	int32 chatType = 1;
+	//发送聊天的角色id
+	int32 sId = 2;
+	//发送聊天的角色昵称
+	string sNickName = 3;
+	//收到聊天的角色id(默认为0)(0意思是收到这消息的都是接收者)
+	int32 rId = 4;
+	//内容(房间内聊天是id)
+	string content = 5;
+}

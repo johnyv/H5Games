@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+package com.protobuff.data;
+option java_outer_classname = "MessageInfo";
+
+//服务器返回文字提示(1040)
+message TipsModule{
+	//提示类型(1.纯文字弹出提醒)
+	int32 type = 1;
+	//提示内容
+	string tips = 2;
+}
+//服务器推送操作错误反馈(1042)
+message ResultErrorModule{
+	//错误消息号
+	int32 packetType = 1;
+	//错误码
+	int32 errorCode = 2;
+}
+
+// 前端心跳(1101)
+message HeartModule{
+}
+// 服务器回应心跳(1102)
+message HeartResultModule{
+	//服务器当前时间
+	int64 system_currtime = 1;
+}
+
+//货币发生变化消息(1010)
+message CurrencyInfoModule{
+	//钻石
+	int32 gold = 1;
+	//金币
+	int32 copper = 3;
+}
+//服务器主动踢角色(1044)
+message KickOffRoleModule{
+	//踢下线原因(1.被人顶下线;2.被封号;3.操作频繁;4.其他原因)
+	int32 kickType = 1;
+}
+//客户端请求主动断开连接(1045)
+message DisConnectionModule{
+}

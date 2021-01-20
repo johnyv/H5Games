@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="root" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="root_BG_jpg" x="0" y="0" width="1920" height="1080" locked="true"/>
+	<e:Button label="" x="1757" y="57">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_json.root_but_KF" source.down="root_json.root_but_KF"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="128" y="783">
+		<e:Button label="" x="0" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_YKDL" source.down="root_json.root_but_YKDL"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="1298" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_QBZH" source.down="root_json.root_but_QBZH"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="652" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_ZHDL" source.down="root_json.root_but_ZHDL"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Label text="1.0.0.1" x="1884" y="1056" textAlign="right" anchorOffsetX="92" anchorOffsetY="30"/>
+	<e:Group x="0" y="0" locked="true" visible="false">
+		<e:Image source="root_json.root_black_9" x="0" y="0" scale9Grid="9,9,14,13" width="1920" height="1080"/>
+		<e:Image source="root_json.root_BG_W" x="497" y="102" scale9Grid="64,64,64,64" width="926" height="878"/>
+		<e:Image source="root_json.root_BG_W1" x="542" y="248" scale9Grid="53,85,13,510" anchorOffsetX="0" width="836"/>
+		<e:Image source="root_json.root_window_TC" x="644" y="115"/>
+		<e:Image source="root_json.root_window_Txt_DL" x="874" y="127"/>
+		<e:Button label="" x="1320" y="149">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_close" source.down="root_json.root_but_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="630" y="641">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_WJMM" source.down="root_json.root_but_WJMM"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="1005" y="641">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_LJDL" source.down="root_json.root_but_LJDL"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="root_json.root_txt_ZH" x="606" y="381"/>
+		<e:Image source="root_json.root_txt_MM" x="606" y="517"/>
+		<e:Image source="root_json.root_bb" x="736" y="363" scale9Grid="42,10,32,66" anchorOffsetX="0" width="570"/>
+		<e:Image source="root_json.root_bb" x="736" y="498" scale9Grid="42,10,32,66" anchorOffsetX="0" width="570"/>
+		<e:Label text="请输入手机号" x="764" y="383" fontFamily="Microsoft YaHei" size="46" textColor="0xffbfba" textAlign="left"/>
+		<e:Label text="请输入6-20位密码" x="764" y="518" fontFamily="Microsoft YaHei" size="46" textColor="0xFFBFBA" textAlign="left"/>
+	</e:Group>
+	<e:Group x="0" y="0" locked="true" visible="false">
+		<e:Image source="root_json.root_black_9" x="0" y="0" scale9Grid="9,9,14,13" width="1920" height="1080"/>
+		<e:Image source="root_json.root_BG_W" x="497" y="102" scale9Grid="64,64,64,64" width="926" height="878"/>
+		<e:Image source="root_json.root_BG_W1" x="542" y="248" scale9Grid="53,85,13,510" anchorOffsetX="0" width="836"/>
+		<e:Image source="root_json.root_window_TC" x="644" y="115"/>
+		<e:Image x="874" y="127" source="root_json.root_window_Txt_TS"/>
+		<e:Button label="" x="1320" y="149">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_json.root_but_close" source.down="root_json.root_but_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="630" y="641">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_QX" source.down="root_json.root_but_QX"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="1005" y="641">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_QD" source.down="root_json.root_but_QD"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="您确定退出当前账号返回登陆？" x="638" y="429" fontFamily="Microsoft YaHei" size="46" textColor="0xFFBFBA" textAlign="left"/>
+	</e:Group>
+	<e:Group x="0" y="0" locked="true" visible="false">
+		<e:Image source="root_json.root_black_9" x="0" y="0" scale9Grid="9,9,14,13" width="1920" height="1080"/>
+		<e:Image source="root_json.root_BG_W" x="497" y="102" scale9Grid="64,64,64,64" width="926" height="878"/>
+		<e:Image source="root_json.root_BG_W1" x="542" y="248" scale9Grid="53,85,13,510" anchorOffsetX="0" width="836"/>
+		<e:Image source="root_json.root_window_TC" x="644" y="115"/>
+		<e:Image x="874" y="127" source="root_json.root_window_Txt_ZC"/>
+		<e:Button label="" x="1320" y="149">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_json.root_but_close" source.down="root_json.root_but_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="821" y="799">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_QD" source.down="root_json.root_but_QD"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="1172" y="380">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_HQ" source.down="root_json.root_but_HQ"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image x="615" y="299" source="root_json.root_txt_SJHM"/>
+		<e:Image x="660" y="407" source="root_json.root_txt_YZM"/>
+		<e:Image source="root_json.root_bb" x="836" y="281" scale9Grid="42,10,32,66" anchorOffsetX="0" width="450"/>
+		<e:Image source="root_json.root_bb" x="836" y="388" scale9Grid="42,10,32,66" anchorOffsetX="0" width="319"/>
+		<e:Label text="请输入手机号" x="864" y="299" fontFamily="Microsoft YaHei" size="40" textColor="0xFFBFBA" textAlign="left"/>
+		<e:Image x="615" y="512" source="root_json.root_txt_SRMM"/>
+		<e:Image source="root_json.root_bb" x="836" y="494" scale9Grid="42,10,32,66" anchorOffsetX="0" width="450"/>
+		<e:Label text="请输入6-20个字符" x="864" y="512" fontFamily="Microsoft YaHei" size="40" textColor="0xFFBFBA" textAlign="left"/>
+		<e:Image x="615" y="619" source="root_json.root_txt_QRMM"/>
+		<e:Image source="root_json.root_bb" x="836" y="601" scale9Grid="42,10,32,66" anchorOffsetX="0" width="450"/>
+		<e:Label text="请输入6-20个字符" x="864" y="619" fontFamily="Microsoft YaHei" size="40" textColor="0xFFBFBA" textAlign="left"/>
+		<e:Label text="已阅读并同意《服务协议》" x="808" y="715" fontFamily="Microsoft YaHei" size="40" textColor="0xFFBFBA" textAlign="left"/>
+		<e:Label text="请输入验证码" x="864" y="406" fontFamily="Microsoft YaHei" size="40" textColor="0xFFBFBA" textAlign="left"/>
+		<e:Image source="root_json.root_but_yes_a" x="693" y="686"/>
+	</e:Group>
+	<e:Group x="0" y="0" locked="true" visible="false">
+		<e:Image source="root_json.root_black_9" x="0" y="0" scale9Grid="9,9,14,13" width="1920" height="1080"/>
+		<e:Image source="root_json.root_BG_W" x="497" y="102" scale9Grid="64,64,64,64" width="926" height="878"/>
+		<e:Image source="root_json.root_BG_W1" x="542" y="248" scale9Grid="53,85,13,510" anchorOffsetX="0" width="836"/>
+		<e:Image source="root_json.root_window_TC" x="644" y="115"/>
+		<e:Image x="874" y="127" source="root_json.root_window_Txt_SZ"/>
+		<e:Button label="" x="1320" y="149">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_json.root_but_close" source.down="root_json.root_but_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image x="975" y="575" source="root_json.root_txt_YX"/>
+		<e:Image x="588" y="575" source="root_json.root_txt_YY"/>
+		<e:Button label="" x="730" y="538">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_GUAN" source.down="root_json.root_but_GUAN"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="1108" y="538">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_KAI" source.down="root_json.root_but_KAI"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group x="0" y="0" locked="true" visible="false">
+		<e:Image source="root_json.root_black_9" x="0" y="0" scale9Grid="9,9,14,13" width="1920" height="1080"/>
+		<e:Image source="root_json.root_BG_W" x="497" y="102" scale9Grid="64,64,64,64" width="926" height="878"/>
+		<e:Image source="root_json.root_BG_W1" x="542" y="248" scale9Grid="53,85,13,510" anchorOffsetX="0" width="836"/>
+		<e:Image source="root_json.root_window_TC" x="644" y="115"/>
+		<e:Image x="750" y="127" source="root_json.root_window_Txt_BDZFB"/>
+		<e:Button label="" x="1320" y="149">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_json.root_but_close" source.down="root_json.root_but_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="821" y="696">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_json.root_but_QD" source.down="root_json.root_but_QD"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image x="571" y="319" source="root_json.root_txt_ZFBZH"/>
+		<e:Image source="root_json.root_bb" x="836" y="301" scale9Grid="42,10,32,66" anchorOffsetX="0" width="450"/>
+		<e:Label text="请输入支付宝账号" x="864" y="319" fontFamily="Microsoft YaHei" size="40" textColor="0xFFBFBA" textAlign="left"/>
+		<e:Image x="571" y="494" source="root_json.root_txt_SMZMZ"/>
+		<e:Image source="root_json.root_bb" x="836" y="476" scale9Grid="42,10,32,66" anchorOffsetX="0" width="450"/>
+		<e:Label text="请输入真实姓名" x="864" y="494" fontFamily="Microsoft YaHei" size="40" textColor="0xFFBFBA" textAlign="left"/>
+		<e:Label text="提示：绑定后不可私自更改，如需修改，请联系在线客服。" x="570" y="859" fontFamily="Microsoft YaHei" size="30" textColor="0xFFBFBA" textAlign="left"/>
+		<e:Label text="（请输入正确的支付账号，提交后不可更改）" x="560" y="397" fontFamily="Microsoft YaHei" size="40" textColor="0xFFBFBA" textAlign="left"/>
+		<e:Label text="（根据支付宝官方要求，用户需输入实名制名字后才能收款）" x="555" y="571" fontFamily="Microsoft YaHei" size="30" textColor="0xFFBFBA" textAlign="left"/>
+	</e:Group>
+	<e:Group x="0" y="0" locked="true">
+		<e:Image source="root_json.root_black_9" x="0" y="0" scale9Grid="9,9,14,13" width="1920" height="1080"/>
+		<e:Image source="root_json.root_BG_W" x="103" y="102" scale9Grid="64,64,64,64" width="1714" height="878"/>
+		<e:Image source="root_json.root_BG_W1" x="141" y="248" scale9Grid="53,85,13,510" anchorOffsetX="0" width="1638" height="644"/>
+		<e:Image source="root_json.root_window_TC" x="644" y="115"/>
+		<e:Image x="750" y="127" source="root_json.root_window_Txt_BDZFB"/>
+		<e:Button label="" x="1712" y="149">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_json.root_but_close" source.down="root_json.root_but_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="821" y="768">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_LJBD" source.down="root_json.root_but_LJBD"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image x="216" y="287" source="root_json.root_txt_ZSXM"/>
+		<e:Image source="root_json.root_bb" x="436" y="269" scale9Grid="42,10,32,66" anchorOffsetX="0" width="338"/>
+		<e:Label text="请输入真实姓名" x="464" y="287" fontFamily="Microsoft YaHei" size="40" textColor="0xFFBFBA" textAlign="left"/>
+		<e:Image x="807" y="287" source="root_json.root_txt_YHKZH"/>
+		<e:Image source="root_json.root_bb" x="1074" y="269" scale9Grid="42,10,32,66" anchorOffsetX="0" width="604"/>
+		<e:Label text="请输入银行卡账号" x="1102" y="287" fontFamily="Microsoft YaHei" size="40" textColor="0xFFBFBA" textAlign="left"/>
+		<e:Label text="提示：为了您的财产安全，绑定后不可私自更改;如需修改，请联系客服。" x="315" y="905" fontFamily="Microsoft YaHei" size="40" textColor="0xFFBFBA" textAlign="left"/>
+		<e:Group x="418" y="378">
+			<e:Group x="0" y="0">
+				<e:Button label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bank_json.BANK_BJYH" source.down="bank_json.BANK_BJYH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button label="" x="0" y="96">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bank_json.BANK_BJYH" source.down="bank_json.BANK_BJYH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button label="" x="0" y="192">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bank_json.BANK_BJYH" source.down="bank_json.BANK_BJYH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button label="" x="0" y="288">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bank_json.BANK_BJYH" source.down="bank_json.BANK_BJYH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group x="280" y="0">
+				<e:Button label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bank_json.BANK_BJYH" source.down="bank_json.BANK_BJYH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button label="" x="0" y="96">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bank_json.BANK_BJYH" source.down="bank_json.BANK_BJYH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button label="" x="0" y="192">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bank_json.BANK_BJYH" source.down="bank_json.BANK_BJYH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button label="" x="0" y="288">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bank_json.BANK_BJYH" source.down="bank_json.BANK_BJYH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group x="559" y="0">
+				<e:Button label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bank_json.BANK_BJYH" source.down="bank_json.BANK_BJYH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button label="" x="0" y="96">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bank_json.BANK_BJYH" source.down="bank_json.BANK_BJYH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button label="" x="0" y="192">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bank_json.BANK_BJYH" source.down="bank_json.BANK_BJYH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button label="" x="0" y="288">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bank_json.BANK_BJYH" source.down="bank_json.BANK_BJYH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group x="838" y="0">
+				<e:Button label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bank_json.BANK_BJYH" source.down="bank_json.BANK_BJYH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button label="" x="0" y="96">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bank_json.BANK_BJYH" source.down="bank_json.BANK_BJYH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button label="" x="0" y="192">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bank_json.BANK_BJYH" source.down="bank_json.BANK_BJYH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button label="" x="0" y="288">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bank_json.BANK_BJYH" source.down="bank_json.BANK_BJYH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+		</e:Group>
+		<e:Image source="root_json.root_bank_XZ" x="1256" y="474"/>
+	</e:Group>
+	<e:Group x="0" y="0" locked="true" visible="false">
+		<e:Image source="root_json.root_black_9" x="0" y="0" scale9Grid="9,9,14,13" width="1920" height="1080"/>
+		<e:Image source="root_json.root_BG_W" x="103" y="102" scale9Grid="64,64,64,64" width="1714" height="878"/>
+		<e:Image source="root_json.root_BG_W1" x="141" y="248" scale9Grid="53,85,13,510" anchorOffsetX="0" width="1638" height="644"/>
+		<e:Image source="root_json.root_window_TC" x="644" y="115"/>
+		<e:Image x="792" y="127" source="root_json.root_window_Txt_QBZH"/>
+		<e:Button label="" x="1712" y="149">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_json.root_but_close" source.down="root_json.root_but_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Label text="您可以使用以下账号进行登陆" x="700" y="263" fontFamily="Microsoft YaHei" size="40" textAlign="left" textColor="0xffffff"/>
+		<e:Label text="提示：更换设备需要进行短信二次验证。" x="600" y="905" fontFamily="Microsoft YaHei" size="40" textColor="0xFFBFBA" textAlign="left"/>
+		<e:Group x="186" y="324">
+			<e:Image source="root_json.root_user_a" x="0" y="0" scale9Grid="34,42,23,19" anchorOffsetX="0" width="400" anchorOffsetY="0" height="530"/>
+			<e:Button label="" x="76" y="404">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="root_json.root_but_LJDL" source.down="root_json.root_but_LJDL"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="root_json.root_user_b" x="83" y="92" visible="false"/>
+			<e:Image source="root_json.root_Avatar" x="89" y="28"/>
+			<e:Image source="root_json.Avatar_00" x="98" y="40"/>
+			<e:Label text="昵称：游客51811929" x="45" y="265" fontFamily="Microsoft YaHei" size="32" textColor="0xFFFFFF" textAlign="left"/>
+			<e:Label text="账户ID：51811929" x="60" y="311" fontFamily="Microsoft YaHei" size="32" textColor="0xFFFFFF" textAlign="left"/>
+			<e:Label text="手机号：未绑定" x="88" y="357" fontFamily="Microsoft YaHei" size="32" textColor="0xFFFFFF" textAlign="left"/>
+		</e:Group>
+		<e:Group x="615" y="324">
+			<e:Image source="root_json.root_user_a" x="0" y="0" scale9Grid="34,42,23,19" anchorOffsetX="0" width="400" anchorOffsetY="0" height="530"/>
+			<e:Button label="" x="76" y="404">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="root_json.root_but_LJDL" source.down="root_json.root_but_LJDL"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="root_json.root_user_b" x="83" y="92" visible="false"/>
+			<e:Image source="root_json.root_Avatar" x="89" y="28"/>
+			<e:Image source="root_json.Avatar_00" x="98" y="40"/>
+			<e:Label text="昵称：游客51811929" x="45" y="265" fontFamily="Microsoft YaHei" size="32" textColor="0xFFFFFF" textAlign="left"/>
+			<e:Label text="账户ID：51811929" x="60" y="311" fontFamily="Microsoft YaHei" size="32" textColor="0xFFFFFF" textAlign="left"/>
+			<e:Label text="手机号：未绑定" x="88" y="357" fontFamily="Microsoft YaHei" size="32" textColor="0xFFFFFF" textAlign="left"/>
+		</e:Group>
+		<e:Group x="1043" y="324">
+			<e:Image source="root_json.root_user_a" x="0" y="0" scale9Grid="34,42,23,19" anchorOffsetX="0" width="400" anchorOffsetY="0" height="530"/>
+			<e:Button label="" x="76" y="404">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="root_json.root_but_LJDL" source.down="root_json.root_but_LJDL"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="root_json.root_user_b" x="83" y="92" visible="false"/>
+			<e:Image source="root_json.root_Avatar" x="89" y="28"/>
+			<e:Image source="root_json.Avatar_00" x="98" y="40"/>
+			<e:Label text="昵称：游客51811929" x="45" y="265" fontFamily="Microsoft YaHei" size="32" textColor="0xFFFFFF" textAlign="left"/>
+			<e:Label text="账户ID：51811929" x="60" y="311" fontFamily="Microsoft YaHei" size="32" textColor="0xFFFFFF" textAlign="left"/>
+			<e:Label text="手机号：未绑定" x="88" y="357" fontFamily="Microsoft YaHei" size="32" textColor="0xFFFFFF" textAlign="left"/>
+		</e:Group>
+		<e:Group x="1472" y="324">
+			<e:Image source="root_json.root_user_a" x="0" y="0" scale9Grid="34,42,23,19" anchorOffsetX="0" width="400" anchorOffsetY="0" height="530"/>
+			<e:Button label="" x="76" y="404">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_ZC" source.down="root_json.root_but_ZC"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image source="root_json.root_user_b" x="83" y="92"/>
+			<e:Image source="root_json.root_Avatar" x="89" y="28" visible="false"/>
+			<e:Image source="root_json.Avatar_00" x="98" y="40" visible="false"/>
+			<e:Label text="昵称：游客51811929" x="45" y="265" fontFamily="Microsoft YaHei" size="32" textColor="0xFFFFFF" textAlign="left" visible="false"/>
+			<e:Label text="账户ID：51811929" x="60" y="311" fontFamily="Microsoft YaHei" size="32" textColor="0xFFFFFF" textAlign="left" visible="false"/>
+			<e:Label text="手机号：未绑定" x="88" y="357" fontFamily="Microsoft YaHei" size="32" textColor="0xFFFFFF" textAlign="left" visible="false"/>
+		</e:Group>
+	</e:Group>
+	<e:Group x="0" y="0" locked="true" visible="false">
+		<e:Image source="root_json.root_black_9" x="0" y="0" scale9Grid="9,9,14,13" width="1920" height="1080"/>
+		<e:Image source="root_json.root_BG_W" x="103" y="102" scale9Grid="64,64,64,64" width="1714" height="878"/>
+		<e:Image source="root_json.root_BG_W1" x="543" y="248" scale9Grid="53,85,13,510" anchorOffsetX="0" width="1236" height="664"/>
+		<e:Image source="root_json.root_window_TC" x="644" y="115"/>
+		<e:Image x="791" y="127" source="root_json.root_window_Txt_GRZX"/>
+		<e:Button label="" x="1712" y="149">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="root_json.root_but_close" source.down="root_json.root_but_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image x="742" y="341" scale9Grid="42,10,32,66" anchorOffsetX="0" width="598" source="root_json.root_b_rB"/>
+		<e:Label text="游客51811729" x="764" y="352" fontFamily="Microsoft YaHei" size="42" textAlign="left" textColor="0xffff00"/>
+		<e:Label text="账户ID：51811729" x="586" y="285" fontFamily="Microsoft YaHei" size="42" textAlign="left" textColor="0xffffff"/>
+		<e:Label text="昵	  	称：" x="586" y="352" fontFamily="Microsoft YaHei" size="42" textColor="0xFFFFFF" textAlign="left"/>
+		<e:Label text="金		 币：2.88" x="586" y="418" fontFamily="Microsoft YaHei" size="42" textColor="0xFFFFFF" textAlign="left"/>
+		<e:Label text="银	 	行：0.00" x="586" y="485" fontFamily="Microsoft YaHei" size="42" textColor="0xFFFFFF" textAlign="left"/>
+		<e:Label text="提示：如需更换绑定的支付宝、银行卡请联系官方在线客服。" x="528" y="917" fontFamily="Microsoft YaHei" size="32" textAlign="left" textColor="0xffffff"/>
+		<e:Button label="" x="173" y="766">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_QHZH" source.down="root_json.root_but_QHZH"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="173" y="597">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_XTSZ" source.down="root_json.root_but_XTSZ"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="1149" y="246">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_FZ" source.down="root_json.root_but_FZ"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group x="580" y="545">
+			<e:Image x="0" y="15" anchorOffsetX="0" width="1018" source="root_json.root_GRXX_B" scale9Grid="245,10,19,58"/>
+			<e:Label text="支付宝" x="6" y="28" fontFamily="Microsoft YaHei" size="42" textAlign="left" textColor="0xffffff"/>
+			<e:Label text="未绑定" x="368" y="28" fontFamily="Microsoft YaHei" size="42" textColor="0xFFFF00" textAlign="left"/>
+			<e:Button label="" x="731" y="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="root_json.root_but_BDZFB" source.down="root_json.root_but_BDZFB"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group x="580" y="659">
+			<e:Image source="root_json.root_GRXX_B" x="0" y="15" scale9Grid="245,10,19,58" anchorOffsetX="0" width="1018"/>
+			<e:Label text="银行卡" x="6" y="28" fontFamily="Microsoft YaHei" size="42" textColor="0xFFFFFF" textAlign="left"/>
+			<e:Label text="未绑定" x="368" y="28" fontFamily="Microsoft YaHei" size="42" textColor="0xFFFF00" textAlign="left"/>
+			<e:Button label="" x="731" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="root_json.root_but_BDYHK" source.down="root_json.root_but_BDYHK"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group x="580" y="772">
+			<e:Image source="root_json.root_GRXX_B" x="0" y="15" scale9Grid="245,10,19,58" anchorOffsetX="0" width="1018"/>
+			<e:Label text="手机号" x="6" y="28" fontFamily="Microsoft YaHei" size="42" textColor="0xFFFFFF" textAlign="left"/>
+			<e:Label text="未绑定" x="368" y="28" fontFamily="Microsoft YaHei" size="42" textColor="0xFFFF00" textAlign="left"/>
+			<e:Button label="" x="731" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="root_json.root_but_SJZSZH" source.down="root_json.root_but_SJZSZH"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Button label="" x="251" y="449">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="root_json.root_but_DJXG" source.down="root_json.root_but_DJXG"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="root_json.root_Avatar" x="230" y="217"/>
+		<e:Image source="root_json.Avatar_00" x="242" y="228"/>
+	</e:Group>
+</e:Skin>

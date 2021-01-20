@@ -1,0 +1,62 @@
+{
+  "engineVersion": "5.2.33",
+  "compilerVersion": "5.2.33",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "dragonbones"
+    },
+    {
+      "name": "protobuf-library",
+      "path": "protobuf/library"
+    },
+    {
+      "name": "protobuf-bundles",
+      "path": "protobuf/bundles"
+    },
+    {
+      "name": "protobuf-library",
+      "path": "protobuf/library"
+    },
+    {
+      "name": "protobuf-bundles",
+      "path": "protobuf/bundles"
+    }
+  ],
+  "targets": {
+    "android": {
+      "appname": "ddz",
+      "packagename": "test.centronx.alpha"
+    }
+  },
+  "eui": {
+    "exmlRoot": [
+      "resource/eui_skins",
+      "resource/scene"
+    ]
+  }
+}

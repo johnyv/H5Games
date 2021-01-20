@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BRNN_Battle" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="QZNN_BG_jpg" x="0" y="0" locked="true"/>
+	<e:Group id="zhuangjiaGroup" x="324" y="-3" height="191" visible="false">
+		<e:Image source="BRNN_Battle_json.BRNN_player_data_9" x="0" y="0" scale9Grid="50,41,50,50" width="1272" height="191"/>
+		<ns1:HeadGroup id="zhuangJiaHead" width="350" height="159" x="20" y="0"/>
+		<ns1:BairenCardGroup id="zhuangJiaCardGroup" width="306" height="196" y="15.15" horizontalCenter="0" visible="false"/>
+	</e:Group>
+	<e:Group id="my_group" x="324" y="911">
+		<e:Image source="BRNN_Battle_json.BRNN_player_data_9" x="0" y="0" scale9Grid="50,41,50,50" width="1272" height="191"/>
+		<e:Group id="coinGroup" x="414" y="32">
+			<e:Image id="coin_1" source="BRNN_Battle_json.BRNN_weight_1" x="20" y="48" scaleX="1" scaleY="1" name="1" anchorOffsetX="50" anchorOffsetY="55"/>
+			<e:Image id="coin_10" source="BRNN_Battle_json.BRNN_weight_10" x="168" y="48" scaleX="1" scaleY="1" name="10" anchorOffsetX="50" anchorOffsetY="55"/>
+			<e:Image id="coin_50" source="BRNN_Battle_json.BRNN_weight_50" x="312" y="48" scaleX="1" scaleY="1" name="50" anchorOffsetX="50" anchorOffsetY="55"/>
+			<e:Image id="coin_100" source="BRNN_Battle_json.BRNN_weight_100" x="456" y="48" scaleX="1" scaleY="1" name="100" anchorOffsetX="50" anchorOffsetY="55"/>
+			<e:Image id="coin_500" source="BRNN_Battle_json.BRNN_weight_500" x="600" y="48" scaleX="1" scaleY="1" name="500" anchorOffsetX="50" anchorOffsetY="55"/>
+			<e:Image id="coin_1000" source="BRNN_Battle_json.BRNN_weight_1000" x="744" y="48" scaleX="1" scaleY="1" name="1000" anchorOffsetX="50" anchorOffsetY="55"/>
+		</e:Group>
+		<ns1:HeadGroup width="350" height="159" x="20" y="0"/>
+	</e:Group>
+	<e:Button id="return_btn" label="" x="33" y="25">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BRNN_Battle_json.BRNN_back" source.down="BRNN_Battle_json.BRNN_back"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="playerList_btn" label="" x="124" y="930">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BRNN_Battle_json.BRNN_List" source.down="BRNN_Battle_json.BRNN_List"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="-13" y="229">
+		<ns1:RankHeadGroup id="rank_0" width="175" height="259" y="-40" x="1720" visible="false"/>
+		<ns1:RankHeadGroup id="rank_1" width="175" height="259" y="-40" x="0" visible="false"/>
+		<ns1:RankHeadGroup id="rank_2" width="175" height="259" y="170" x="1720" visible="false"/>
+		<ns1:RankHeadGroup id="rank_3" width="175" height="259" y="170" x="0" visible="false"/>
+		<ns1:RankHeadGroup id="rank_4" width="175" height="259" y="380" x="1720" visible="false"/>
+		<ns1:RankHeadGroup id="rank_5" width="175" height="259" y="380" x="0" visible="false"/>
+	</e:Group>
+	<e:Group y="368" scaleX="0.8" scaleY="0.8" horizontalCenter="0">
+		<e:Image source="BRNN_Battle_json.BRNN_H1" y="136" horizontalCenter="-580"/>
+		<e:Image y="136" horizontalCenter="-180" source="BRNN_Battle_json.BRNN_H2"/>
+		<e:Image y="136" horizontalCenter="180" source="BRNN_Battle_json.BRNN_H3"/>
+		<e:Image y="136" horizontalCenter="580" source="BRNN_Battle_json.BRNN_H4"/>
+		<ns1:DoorGroup id="doorGroup_1" width="340" height="668" x="0" y="0"/>
+		<ns1:DoorGroup id="doorGroup_2" width="340" height="668" x="372" y="0"/>
+		<ns1:DoorGroup id="doorGroup_3" width="340" height="668" x="746" y="0"/>
+		<ns1:DoorGroup id="doorGroup_4" width="340" height="668" x="1130" y="0"/>
+	</e:Group>
+	<e:Group id="cardGroup" x="239" y="225" visible="false">
+		<e:Image width="165" height="219" x="0" y="12" source="niuniu_card_json.card_back" scaleX="0.5" scaleY="0.5"/>
+		<e:Image width="165" height="219" x="0" y="8" source="niuniu_card_json.card_back" scaleX="0.5" scaleY="0.5"/>
+		<e:Image width="165" height="219" x="0" y="4" source="niuniu_card_json.card_back" scaleX="0.5" scaleY="0.5"/>
+		<e:Image width="165" height="219" x="0" y="0" source="niuniu_card_json.card_back" scaleX="0.5" scaleY="0.5"/>
+		<e:Image source="BRNN_Battle_json.BRNN_tip_shadow" y="57" scale9Grid="180,25,32,152" width="279.07" x="45" anchorOffsetX="0" anchorOffsetY="0" height="86" scaleX="1" scaleY="1"/>
+		<e:Label id="currentTimeType_txt" text="开局倒计时" y="84" textColor="0xffff00" size="32" x="105" scaleX="1" scaleY="1"/>
+		<e:Label id="currentTime_txt" text="100s" y="8" textColor="0xFFFF00" size="50" x="110" scaleX="1" scaleY="1" anchorOffsetY="0" height="72" verticalAlign="middle" anchorOffsetX="0" width="150" textAlign="center"/>
+	</e:Group>
+	<e:Label id="xiaZhuLogo" text="开始下注" anchorOffsetX="0" width="1219" anchorOffsetY="0" height="250" size="160" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="0" alpha="0.3" visible="false"/>
+	<e:Label id="biPaiLogo" text="开始比牌" anchorOffsetX="0" width="1219" anchorOffsetY="0" height="250" size="160" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="0" alpha="0.3" visible="false"/>
+	<e:Button id="shangZhuang_btn" label="" x="1300" y="247">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BRNN_Battle_json.BRNN_SZ" source.down="BRNN_Battle_json.BRNN_SZ"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

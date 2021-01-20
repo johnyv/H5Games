@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TopHead" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	
+	<w:Config id="167886e7130"/>
+	<e:Image width="1920" height="1080" x="0" y="0" source="hall_bg_png"/>
+	<e:Image horizontalCenter="0" source="model_json.bottom" bottom="0"/>
+	<e:Image source="model_json.toumingdi" horizontalCenter="0" verticalCenter="0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Image id="match_2_btn" source="model_json.match_2" x="732.11" y="256"/>
+	<e:Image id="match_4_btn" source="model_json.match_4" x="208.41" y="577"/>
+	<e:Button id="return_btn" label="" x="90.91" y="944">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="model_json.return_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Image id="tip_btn" source="model_json.rule_btn" x="211.83" y="179"/>
+	<e:Image id="match_1_btn" source="model_json.match_1" x="244.77" y="256"/>
+	<e:Image id="match_5_btn" source="model_json.match_5" x="689.69" y="577"/>
+	<e:Image id="match_3_btn" source="model_json.match_3" x="1215.48" y="256"/>
+
+	<e:Image id="fast_play_btn" source="model_json.fast_btn" x="1486" y="908"/>
+	<e:Image source="model_json.tip" x="583" y="197"/>
+	<e:Image source="model_json.model_tip_bg" x="538" y="179"/>
+	<e:Label id="ekt_txt1" textColor="0xFFFFFF" size="32" text="尊敬的玩家：如果您在游戏中遇到任何问题,请..." x="651" y="197" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="669" anchorOffsetY="0" height="33"/>
+	<e:Group x="0" y="0" id="top_bar">
+		<e:Image source="hall_json.dingbudi" x="212" y="0"/>
+		<e:Image x="559" y="24" source="hall_json.dikuang"/>
+		<e:Image x="1020" y="29" source="hall_json.dikuang" width="355" height="68"/>
+		<e:Image x="547.03" y="31.06" source="hall_json.gold_icon"/>
+		<e:Image x="994" y="21" source="hall_json.diamond_icon"/>
+		<e:Label id="gold_txt0" text="98300" x="695" y="45" size="46" width="139" height="36"/>
+		<e:Label id="diamond_txt0" text="35" x="1175" y="46" size="46" width="100" height="34"/>
+		<e:Group id="touxiang_box0" x="0" y="0">
+		<e:Image source="hall_json.dingbuzuo" x="0" y="0"/>
+		<e:Label id="name_txt0" text="游客123456" x="258.21" y="6.73" size="38" width="229" height="36"/>
+		<e:Image id="head_icon0" x="137.39" y="-1.89" source="hall_json.head_icon" width="95"/>
+		<e:Image x="249.12" y="54.23" source="hall_json.vip_bg"/>
+		<e:Label id="vip_txt0" text="V7" x="319.69" y="64.73" size="28" width="53" height="23" textAlign="left" bold="true"/>
+		</e:Group>
+		<e:Image source="hall_json.active_btn" x="1454" y="21"/>
+		<e:Image source="hall_json.notice_btn" x="1762.12" y="23" width="87" height="80"/>
+		<e:Image source="hall_json.tequan_btn" x="1607" y="20" width="80" height="87"/>
+		<e:Image source="hall_json.jiaqian_btn" x="855" y="32"/>
+		<e:Image source="hall_json.jiaqian_btn" x="1302" y="32"/>
+	</e:Group>
+</e:Skin>

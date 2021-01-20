@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="hall" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="hall_bg" x="0" y="8" width="1920" height="1080" source="hall_bg_png"/>
+	<e:Image id="bg_bottom" x="0" source="hall_json.bg_bottom" y="958"/>
+	<e:Image id="shop_btn" x="1546" y="902" source="hall_json.shop_btn"/>
+	<e:Image id="safe_btn" x="743.5" y="960" source="hall_json.safe_btn"/>
+	<e:Image id="kefu_btn" x="1304.5" y="957" source="hall_json.kefu_btn"/>
+	<e:Image source="setting_btn_png" x="2158" y="1017"/>
+	<e:Image id="main_game_btn" x="624.5" y="153.49" source="hall_json.main_game_btn" width="535"/>
+	<e:Image id="huanle_btn" x="1160.1" y="145.49" source="hall_json.huanle_btn"/>
+	<e:Image id="jinsanshun_btn" x="981" y="248" source="hall_json.jinsanshun_btn"/>
+	<e:Image id="bisai_btn" x="157.73" y="133.49" source="hall_json.bisai_btn"/>
+	<e:Image id="wuziqi_btn" x="554" y="538" source="hall_json.wuziqi_btn"/>
+	<e:Image id="laizi_btn" x="981" y="550" source="hall_json.laizi_btn"/>
+	<e:Image id="xiaochou_btn" x="1411" y="550" source="hall_json.xiaochou_btn"/>
+	<e:Image id="next_page_btn" source="next_page_btn_png" x="2188" y="551"/>
+	<e:Image source="notice_bg_png" x="800" y="188"/>
+	<e:Group id="gonggao_box" x="537.5" y="107.33" visible="false">
+		<e:Image id="notice_bg" source="hall_json.notice_bg" x="0" y="0"/>
+		<e:Image x="36" y="14.5" source="hall_json.notice"/>
+		<e:Label id="notice_txt" text="尊敬的玩家：如果您在游戏中遇到任何问题,请..." x="117.5" y="23" size="32" width="668" height="33"/>
+	</e:Group>
+	<e:Image source="hall_json.jiujijin_btn" x="436.03" y="964"/>
+	<e:Image source="hall_json.zhuce_btn" x="155.5" y="963"/>
+	<e:Image source="hall_json.tixian_btn" x="1044" y="961"/>
+	<e:Group id="top_bar" x="0" y="0">
+		<e:Image source="hall_json.dingbudi" x="212" y="0"/>
+		<e:Image x="559" y="24" source="hall_json.dikuang"/>
+		<e:Image x="1020" y="29" source="hall_json.dikuang" width="355" height="68"/>
+		<e:Image x="547.03" y="31.06" source="hall_json.gold_icon"/>
+		<e:Image x="994" y="21" source="hall_json.diamond_icon"/>
+		<e:Label id="gold_txt" text="98300" x="695" y="45" size="46" width="139" height="36"/>
+		<e:Label id="diamond_txt" text="35" x="1175" y="46" size="46" width="100" height="34"/>
+		<e:Group id="touxiang_box" x="0" y="0">
+			<e:Image source="hall_json.dingbuzuo" x="0" y="0"/>
+			<e:Label id="name_txt" text="游客123456" x="258.21" y="6.73" size="38" width="229" height="36"/>
+			<e:Image id="head_icon" x="137.39" y="-1.89" source="hall_json.head_icon" width="95"/>
+			<e:Image x="249.12" y="54.23" source="hall_json.vip_bg"/>
+			<e:Label id="vip_txt" text="V7" x="319.69" y="64.73" size="28" width="53" height="23" textAlign="left" bold="true"/>
+		</e:Group>
+		<e:Image source="hall_json.active_btn" x="1454" y="21"/>
+		<e:Image source="hall_json.notice_btn" x="1762.12" y="23" width="87" height="80"/>
+		<e:Image source="hall_json.tequan_btn" x="1607" y="20" width="80" height="87"/>
+		<e:Image source="hall_json.jiaqian_btn" x="855" y="32"/>
+		<e:Image source="hall_json.jiaqian_btn" x="1302" y="32"/>
+	</e:Group>
+	<e:Image source="hall_json.more_btn" x="1139.25" y="577.49"/>
+	<e:Image source="hall_json.shuxian" x="723" y="958"/>
+	<e:Image source="hall_json.shuxian" x="1028" y="958"/>
+	<e:Image source="hall_json.shuxian" x="1280" y="958"/>
+	<e:Image source="hall_json.shuxian" x="402.5" y="958"/>
+	<e:Image source="hall_json.paifangbangdibu" left="0" verticalCenter="0"/>
+	<e:Image id="rank_btn" x="25" y="153.49" source="hall_json.rank_btn"/>
+	<e:Image source="hall_json.paihangkuang" x="8.91" y="278.79"/>
+	<e:Image source="hall_json.paihangtouxiang" x="7.85" y="280.97"/>
+</e:Skin>

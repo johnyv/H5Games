@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="hall" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="1920" height="1080" x="0" y="0" source="nn_lo_bg_jpg"/>
+	<e:Label id="loading_txt" text="加载中..." x="868" y="900" textAlign="center" size="50" fontFamily="Microsoft YaHei"/>
+	<e:Rect id="loading_ani_point" width="108" height="126" y="759.6" anchorOffsetX="54" anchorOffsetY="63" horizontalCenter="0" visible="false"/>
+</e:Skin>

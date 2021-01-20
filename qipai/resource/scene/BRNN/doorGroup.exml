@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="doorGroup" width="340" height="668" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="BRNN_Battle_json.BRNN_b" x="0" y="0"/>
+	<e:Rect id="selectLogo" width="340" height="460" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" strokeColor="0xe2960d" strokeWeight="5" visible="false"/>
+	<e:Group id="coin_container" width="340" height="292" x="0" y="76" anchorOffsetY="0">
+	</e:Group>
+	<e:Label id="totalXiaZhu_txt" text="总：0" x="60" y="8" textColor="0xFFCC6A" size="40" fontFamily="Microsoft YaHei" textAlign="center" anchorOffsetX="0" width="254"/>
+	<e:Label id="nowXiaZhu_txt" text="下注：500" x="75" y="402" size="40" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFFFFF" visible="false"/>
+	<ns1:BairenCardGroup id="cardGroup" width="278" height="196" y="471" anchorOffsetX="0" x="31" visible="false"/>
+	<e:Image id="pingLogo" source="BRNN_Battle_json.BRNN_ping" x="14" y="64" visible="false"/>
+</e:Skin>

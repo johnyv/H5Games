@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <e:Skin class="winGame" width="1980" height="1020" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+			<e:Image source="jiesuan_json.dialog_bg_small" horizontalCenter="0" verticalCenter="0" locked="true"/>
+			<e:Image id="winImg" fillMode="repeat" y="66" source="jiesuan_json.你赢了" x="517"/>
+
+
+
+
+
+
+			<e:Button id="continue_btn" label="" x="1092.45" y="668.04">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="jiesuan_json.继续游戏"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+
+			</e:Button>
+			<e:Button id="leave_btn" label="" x="555.36" y="668.04">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="jiesuan_json.返回大厅"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+
+			</e:Button>
+			<e:Label id="nickName_txt_1" text="玩家1" x="443.15" y="429.4" size="40" bold="true" textColor="0xefefef" anchorOffsetX="0" width="264" textAlign="center"/>
+			<e:Label id="times_txt_1" text="1" x="978.15" y="429.4" size="40" bold="true" textColor="0xefefef"/>
+
+			<e:Label id="gold_txt_1" text="金币数" x="1334.97" y="429.4" size="40" bold="true" textColor="0xefefef"/>
+			<e:Label id="nickName_txt_0" text="玩家1" x="443.15" y="509.4" size="40" bold="true" textColor="0xEFEFEF" anchorOffsetX="0" width="264" textAlign="center"/>
+			<e:Label id="times_txt_0" text="1" x="978.15" y="509.4" size="40" bold="true" textColor="0xEFEFEF"/>
+			<e:Label text="金币数" x="1334.97" y="509.4" size="40" bold="true" textColor="0xEFEFEF" id="gold_txt_0"/>
+			<e:Label id="nickName_txt_2" text="玩家1" x="443.21" y="591.4" size="40" bold="true" textColor="0xEFEFEF" anchorOffsetX="0" width="264" textAlign="center"/>
+			<e:Label id="times_txt_2" text="1" x="978.21" y="591.4" size="40" bold="true" textColor="0xEFEFEF"/>
+			<e:Label text="金币数" x="1335.03" y="591.4" size="40" bold="true" textColor="0xEFEFEF" id="gold_txt_2"/>
+			<e:Image source="jiesuan_json.玩家" x="526.15" y="329.4"/>
+			<e:Image source="jiesuan_json.倍数" x="939.15" y="329.4"/>
+			<e:Image x="1351.15" y="330.4" source="jiesuan_json.金币"/>
+			<e:Image source="jiesuan_json.dizhuying" x="123" y="173"/>
+	
+</e:Skin>

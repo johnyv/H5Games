@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="loading" width="2436" height="1125" xmlns:e="http://ns.egret.com/eui">
+	<e:Image x="0" y="0" source="login_bg_png"/>
+	<e:Image source="logo_png" x="1037" y="136"/>
+	<e:Image source="weixin_png" x="537" y="765"/>
+	<e:Image source="phone_png" x="1464" y="765"/>
+</e:Skin>

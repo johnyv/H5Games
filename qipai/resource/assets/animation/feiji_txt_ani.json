@@ -1,0 +1,52 @@
+{"mc":{
+	"ani":{
+		"frameRate":24,
+		"labels":[
+			{"name":"","frame":1,"end":6}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"txt-feiji_1",
+			"x":9,
+			"y":5
+			},
+			{
+			"res":"txt-feiji_2",
+			"x":41,
+			"y":5
+			},
+			{
+			"res":"txt-feiji_3",
+			"x":57,
+			"y":5
+			},
+			{
+			"res":"txt-feiji_4",
+			"x":65,
+			"y":5
+			},
+			{
+			"res":"txt-feiji_5",
+			"x":71,
+			"y":5
+			},
+			{
+			"res":"txt-feiji_6",
+			"x":72,
+			"y":5
+			}
+			]
+}},
+	"res":{
+		"txt-feiji_3":{"x":265,"y":108,"w":230,"h":105},
+		"txt-feiji_4":{"x":1,"y":215,"w":214,"h":105},
+		"txt-feiji_2":{"x":1,"y":108,"w":262,"h":105},
+		"txt-feiji_5":{"x":217,"y":215,"w":202,"h":105},
+		"txt-feiji_1":{"x":1,"y":1,"w":326,"h":105},
+		"txt-feiji_6":{"x":1,"y":322,"w":200,"h":105}
+	}}
